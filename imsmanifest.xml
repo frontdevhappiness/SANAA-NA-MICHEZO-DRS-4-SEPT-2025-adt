@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ADT_SANAA_NA_MICHEZO_DRS_4_SEPT_2025" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                       http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+
+  <organizations default="ADT_ORG">
+    <organization identifier="ADT_ORG">
+      <title>Sanaa na Michezo</title>
+      <item identifier="ITEM_1" identifierref="RESOURCE_1">
+        <title>Sanaa na Michezo</title>
+      </item>
+    </organization>
+  </organizations>
+
+  <resources>
+    <resource identifier="RESOURCE_1"
+              type="webcontent"
+              adlcp:scormtype="sco"
+              href="index.html">
+      <file href="index.html"/>
+      <file href="pg002_sec001.html"/>
+      <file href="pg003_sec001.html"/>
+      <file href="pg004_sec001.html"/>
+      <file href="pg005_sec001.html"/>
+      <file href="pg006_sec001.html"/>
+      <file href="pg007_sec001.html"/>
+      <file href="pg008_sec001.html"/>
+      <file href="pg009_sec001.html"/>
+      <file href="pg010_sec001.html"/>
+      <file href="pg011_sec001.html"/>
+      <file href="pg012_sec001.html"/>
+      <file href="pg013_sec001.html"/>
+      <file href="pg014_sec001.html"/>
+      <file href="pg015_sec001.html"/>
+      <file href="pg016_sec001.html"/>
+      <file href="pg017_sec001.html"/>
+      <file href="pg018_sec001.html"/>
+      <file href="pg019_sec001.html"/>
+      <file href="pg020_sec001.html"/>
+      <file href="pg021_sec001.html"/>
+      <file href="pg022_sec001.html"/>
+      <file href="pg023_sec001.html"/>
+      <file href="pg024_sec001.html"/>
+      <file href="pg025_sec001.html"/>
+      <file href="pg026_sec001.html"/>
+      <file href="pg027_sec001.html"/>
+      <file href="pg028_sec001.html"/>
+      <file href="pg029_sec001.html"/>
+      <file href="pg030_sec001.html"/>
+      <file href="pg031_sec001.html"/>
+      <file href="pg032_sec001.html"/>
+      <file href="pg033_sec001.html"/>
+      <file href="pg034_sec001.html"/>
+      <file href="pg035_sec001.html"/>
+      <file href="pg036_sec001.html"/>
+      <file href="pg037_sec001.html"/>
+      <file href="pg038_sec001.html"/>
+      <file href="pg039_sec001.html"/>
+      <file href="pg040_sec001.html"/>
+      <file href="pg041_sec001.html"/>
+      <file href="pg042_sec001.html"/>
+      <file href="pg043_sec001.html"/>
+      <file href="pg044_sec001.html"/>
+      <file href="pg045_sec001.html"/>
+      <file href="pg046_sec001.html"/>
+      <file href="pg047_sec001.html"/>
+      <file href="pg048_sec001.html"/>
+      <file href="pg049_sec001.html"/>
+      <file href="pg050_sec001.html"/>
+      <file href="pg051_sec001.html"/>
+      <file href="pg052_sec001.html"/>
+      <file href="pg053_sec001.html"/>
+      <file href="pg054_sec001.html"/>
+      <file href="pg055_sec001.html"/>
+      <file href="pg056_sec001.html"/>
+      <file href="pg057_sec001.html"/>
+      <file href="pg058_sec001.html"/>
+      <file href="pg059_sec001.html"/>
+      <file href="pg060_sec001.html"/>
+      <file href="pg061_sec001.html"/>
+      <file href="pg062_sec001.html"/>
+      <file href="pg063_sec001.html"/>
+      <file href="pg064_sec001.html"/>
+      <file href="pg065_sec001.html"/>
+      <file href="pg066_sec001.html"/>
+      <file href="pg067_sec001.html"/>
+      <file href="pg068_sec001.html"/>
+      <file href="pg069_sec001.html"/>
+      <file href="pg070_sec001.html"/>
+      <file href="pg071_sec001.html"/>
+      <file href="pg072_sec001.html"/>
+      <file href="pg073_sec001.html"/>
+      <file href="pg074_sec001.html"/>
+      <file href="pg075_sec001.html"/>
+      <file href="pg076_sec001.html"/>
+      <file href="pg077_sec001.html"/>
+      <file href="pg078_sec001.html"/>
+      <file href="pg079_sec001.html"/>
+      <file href="pg079_sec002.html"/>
+      <file href="pg080_sec001.html"/>
+      <file href="pg080_sec002.html"/>
+    </resource>
+  </resources>
+
+</manifest>
