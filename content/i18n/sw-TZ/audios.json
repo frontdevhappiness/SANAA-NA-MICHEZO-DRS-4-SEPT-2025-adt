@@ -1423,9 +1423,9 @@
   "pg080_n0011": "pg080_n0011.mp3",
   "pg080_n0013": "pg080_n0013.mp3",
   "pg080_n0016": "pg080_n0016.mp3",
-  "pg080_im001": "pg080_im001.mp3",
+  "pg080_im001": "pg027_n0051.mp3#t=2.2",
   "pg080_n0022": "pg080_n0022.mp3",
-  "pg080_im003": "pg080_im003.mp3",
+  "pg080_im003": "pg027_n0004.mp3",
   "pg080_n0028": "pg080_n0028.mp3",
   "pg080_im002": "pg080_im002.mp3",
   "pg080_sec001_ans_pg080-name-1": "pg080_sec001_ans_pg080-name-1.mp3",
@@ -2988,5 +2988,9 @@
   "pg079_label_q4_d": "pg008_n0027.mp3",
   "pg079_label_q4_d_easy_read": "pg008_n0027.mp3",
   "pg079_label_q4_e": "pg008_n0032.mp3",
-  "pg079_label_q4_e_easy_read": "pg008_n0032.mp3"
+  "pg079_label_q4_e_easy_read": "pg008_n0032.mp3",
+  "pg080_im003_easy_read": "pg027_n0004.mp3",
+  "pg080_im001_easy_read": "pg027_n0051.mp3#t=2.2",
+  "pg080_table_caption": "pg080_table_caption.mp3",
+  "pg080_table_caption_easy_read": "pg080_table_caption_easy_read.mp3"
 }

@@ -1433,7 +1433,7 @@
   "pg080_n0016": "(i)",
   "pg080_im001": "Penseli ya kuchorea.",
   "pg080_n0022": "(ii)",
-  "pg080_im003": "Jedwali la kutambua vifaa vya uchoraji lenye picha za penseli, karatasi na kifutio.",
+  "pg080_im003": "Karatasi.",
   "pg080_n0028": "(iii)",
   "pg080_im002": "Kifutio cha kufuta maandishi au michoro ya penseli.",
   "pg080_sec001_ans_pg080-name-1": "Penseli",
@@ -2988,5 +2988,9 @@
   "pg079_label_q4_d": "(d)",
   "pg079_label_q4_d_easy_read": "(d)",
   "pg079_label_q4_e": "(e)",
-  "pg079_label_q4_e_easy_read": "(e)"
+  "pg079_label_q4_e_easy_read": "(e)",
+  "pg080_im003_easy_read": "Karatasi.",
+  "pg080_im001_easy_read": "Penseli ya kuchorea.",
+  "pg080_table_caption": "Jedwali lenye safu wima nne na safu mlalo nne, likionesha vifaa vya uchoraji, majina na matumizi yake.",
+  "pg080_table_caption_easy_read": "Jedwali lenye safu wima nne na safu mlalo nne, likionesha vifaa vya uchoraji, majina na matumizi yake."
 }
