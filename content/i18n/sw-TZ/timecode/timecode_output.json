@@ -55289,20 +55289,6 @@
       }
     ]
   },
-  "pg066_n0039": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "Koo",
-            "start": 0,
-            "end": 0.46000000834465027
-          }
-        ]
-      }
-    ]
-  },
   "pg066_n0041": {
     "timecodes": [
       null,
@@ -126099,20 +126085,6 @@
             "text": "baridi",
             "start": 13.979999542236328,
             "end": 14.420000076293945
-          }
-        ]
-      }
-    ]
-  },
-  "pg066_n0039_easy_read": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "Koo",
-            "start": 0,
-            "end": 0.46000000834465027
           }
         ]
       }
