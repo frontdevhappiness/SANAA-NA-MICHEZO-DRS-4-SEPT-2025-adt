@@ -66777,20 +66777,6 @@
       }
     ]
   },
-  "pg078_n0021": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "2",
-            "start": 0,
-            "end": 1.100000023841858
-          }
-        ]
-      }
-    ]
-  },
   "pg078_n0022": {
     "timecodes": [
       null,
@@ -137202,20 +137188,6 @@
             "text": "medali",
             "start": 6.320000171661377,
             "end": 6.900000095367432
-          }
-        ]
-      }
-    ]
-  },
-  "pg078_n0021_easy_read": {
-    "timecodes": [
-      null,
-      {
-        "word_timestamps": [
-          {
-            "text": "Mwubili",
-            "start": 0,
-            "end": 0.6800000071525574
           }
         ]
       }
