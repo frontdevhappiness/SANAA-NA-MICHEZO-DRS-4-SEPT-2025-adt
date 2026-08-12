@@ -37505,7 +37505,7 @@
         "word_timestamps": [
           {
             "text": "Sawazisha",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           },
           {
@@ -37526,11 +37526,11 @@
           {
             "text": "na",
             "start": 2.4800000190734863,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "ndani",
-            "start": 3.0,
+            "start": 3,
             "end": 3.5
           },
           {
@@ -37619,7 +37619,7 @@
         "word_timestamps": [
           {
             "text": "Pia",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8600000143051147
           },
           {
@@ -37915,7 +37915,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           },
           {
@@ -37983,7 +37983,7 @@
         "word_timestamps": [
           {
             "text": "a",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           },
           {
@@ -39140,7 +39140,7 @@
         "word_timestamps": [
           {
             "text": "Weka",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -39412,7 +39412,7 @@
         "word_timestamps": [
           {
             "text": "Msamiati",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0399999618530273
           }
         ]
@@ -39499,7 +39499,7 @@
         "word_timestamps": [
           {
             "text": "Mchemstatili",
-            "start": 0.0,
+            "start": 0,
             "end": 1.899999976158142
           }
         ]
@@ -40929,7 +40929,7 @@
         "word_timestamps": [
           {
             "text": "Baada",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -41028,7 +41028,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.3799999952316284
           }
         ]
@@ -41042,7 +41042,7 @@
         "word_timestamps": [
           {
             "text": "Baada",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7400000095367432
           },
           {
@@ -42295,7 +42295,7 @@
         "word_timestamps": [
           {
             "text": "c",
-            "start": 0.0,
+            "start": 0,
             "end": 1.4199999570846558
           },
           {
@@ -42336,11 +42336,11 @@
           {
             "text": "Kielelezo",
             "start": 8.020000457763672,
-            "end": 9.0
+            "end": 9
           },
           {
             "text": "namba",
-            "start": 9.0,
+            "start": 9,
             "end": 9.779999732971191
           },
           {
@@ -42359,7 +42359,7 @@
         "word_timestamps": [
           {
             "text": "d",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2799999713897705
           },
           {
@@ -42561,12 +42561,12 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "Na",
-            "start": 1.0,
+            "start": 1,
             "end": 1.6399999856948853
           },
           {
@@ -42620,7 +42620,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7200000286102295
           },
           {
@@ -42831,7 +42831,7 @@
         "word_timestamps": [
           {
             "text": "d",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2799999713897705
           },
           {
@@ -43372,7 +43372,7 @@
         "word_timestamps": [
           {
             "text": "a",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
@@ -44574,7 +44574,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5
           },
           {
@@ -46561,7 +46561,7 @@
         "word_timestamps": [
           {
             "text": "Kisanduku",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2000000476837158
           },
           {
@@ -46709,7 +46709,7 @@
         "word_timestamps": [
           {
             "text": "Ipo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -46906,7 +46906,7 @@
         "word_timestamps": [
           {
             "text": "Kisanduku",
-            "start": 0.0,
+            "start": 0,
             "end": 1.059999942779541
           },
           {
@@ -46984,7 +46984,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9200000166893005
           },
           {
@@ -47047,7 +47047,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0199999809265137
           },
           {
@@ -47098,11 +47098,11 @@
           {
             "text": "utamaduni",
             "start": 5.260000228881836,
-            "end": 6.0
+            "end": 6
           },
           {
             "text": "na",
-            "start": 6.0,
+            "start": 6,
             "end": 6.559999942779541
           },
           {
@@ -47264,7 +47264,7 @@
         "word_timestamps": [
           {
             "text": "Ni",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5799999833106995
           },
           {
@@ -47353,7 +47353,7 @@
         "word_timestamps": [
           {
             "text": "Ni",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6399999856948853
           },
           {
@@ -47434,11 +47434,11 @@
           {
             "text": "ya",
             "start": 12.760000228881836,
-            "end": 13.0
+            "end": 13
           },
           {
             "text": "gunia",
-            "start": 13.0,
+            "start": 13,
             "end": 13.380000114440918
           }
         ]
@@ -47452,12 +47452,12 @@
         "word_timestamps": [
           {
             "text": "Washiriki",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "katika",
-            "start": 1.0,
+            "start": 1,
             "end": 1.7799999713897705
           },
           {
@@ -47498,11 +47498,11 @@
           {
             "text": "mmoja",
             "start": 5.460000038146973,
-            "end": 6.0
+            "end": 6
           },
           {
             "text": "au",
-            "start": 6.0,
+            "start": 6,
             "end": 6.599999904632568
           },
           {
@@ -47521,7 +47521,7 @@
         "word_timestamps": [
           {
             "text": "Mara",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5400000214576721
           },
           {
@@ -47562,11 +47562,11 @@
           {
             "text": "shule",
             "start": 4.659999847412109,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "na",
-            "start": 5.0,
+            "start": 5,
             "end": 5.71999979019165
           },
           {
@@ -47932,7 +47932,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -48669,7 +48669,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7200000286102295
           },
           {
@@ -48695,11 +48695,11 @@
           {
             "text": "mbio",
             "start": 2.619999885559082,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "za",
-            "start": 3.0,
+            "start": 3,
             "end": 3.2200000286102295
           },
           {
@@ -48718,7 +48718,7 @@
         "word_timestamps": [
           {
             "text": "Umuhimu",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8999999761581421
           },
           {
@@ -48762,7 +48762,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
@@ -49186,7 +49186,7 @@
         "word_timestamps": [
           {
             "text": "1",
-            "start": 0.0,
+            "start": 0,
             "end": 1.7000000476837158
           },
           {
@@ -49240,7 +49240,7 @@
         "word_timestamps": [
           {
             "text": "2",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7400000095367432
           },
           {
@@ -49299,7 +49299,7 @@
         "word_timestamps": [
           {
             "text": "3",
-            "start": 0.0,
+            "start": 0,
             "end": 1.8799999952316284
           },
           {
@@ -49315,11 +49315,11 @@
           {
             "text": "mbinu",
             "start": 3.5999999046325684,
-            "end": 4.0
+            "end": 4
           },
           {
             "text": "gani",
-            "start": 4.0,
+            "start": 4,
             "end": 4.440000057220459
           },
           {
@@ -49350,7 +49350,7 @@
           {
             "text": "kuanguka",
             "start": 7.360000133514404,
-            "end": 8.0
+            "end": 8
           }
         ]
       }
@@ -49363,7 +49363,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.699999988079071
           },
           {
@@ -49392,7 +49392,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -49511,7 +49511,7 @@
         "word_timestamps": [
           {
             "text": "Ni",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7599999904632568
           },
           {
@@ -49565,7 +49565,7 @@
         "word_timestamps": [
           {
             "text": "Lengo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.440000057220459
           },
           {
@@ -49654,7 +49654,7 @@
         "word_timestamps": [
           {
             "text": "Ni",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1799999475479126
           },
           {
@@ -49882,7 +49882,7 @@
         "word_timestamps": [
           {
             "text": "Kila",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5400000214576721
           },
           {
@@ -50014,7 +50014,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -50028,7 +50028,7 @@
         "word_timestamps": [
           {
             "text": "Mwongozaji",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1799999475479126
           },
           {
@@ -50210,7 +50210,7 @@
         "word_timestamps": [
           {
             "text": "Wanafunzi",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1399999856948853
           },
           {
@@ -50322,7 +50322,7 @@
         "word_timestamps": [
           {
             "text": "Kama",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
@@ -50338,11 +50338,11 @@
           {
             "text": "michezo",
             "start": 1.8799999952316284,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "mingine",
-            "start": 3.0,
+            "start": 3,
             "end": 3.700000047683716
           },
           {
@@ -50425,7 +50425,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -50532,7 +50532,7 @@
         "word_timestamps": [
           {
             "text": "Kuku",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7599999904632568
           },
           {
@@ -50932,7 +50932,7 @@
         "word_timestamps": [
           {
             "text": "Faida",
-            "start": 0.0,
+            "start": 0,
             "end": 1.059999942779541
           },
           {
@@ -50971,7 +50971,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
@@ -51386,7 +51386,7 @@
         "word_timestamps": [
           {
             "text": "Shirikiana",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2200000286102295
           },
           {
@@ -51459,7 +51459,7 @@
         "word_timestamps": [
           {
             "text": "1",
-            "start": 0.0,
+            "start": 0,
             "end": 1.6399999856948853
           },
           {
@@ -51480,11 +51480,11 @@
           {
             "text": "mchezo",
             "start": 5.420000076293945,
-            "end": 6.0
+            "end": 6
           },
           {
             "text": "wa",
-            "start": 6.0,
+            "start": 6,
             "end": 6.199999809265137
           },
           {
@@ -51552,7 +51552,7 @@
         "word_timestamps": [
           {
             "text": "3",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -51666,7 +51666,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
@@ -51717,11 +51717,11 @@
           {
             "text": "katika",
             "start": 6.159999847412109,
-            "end": 7.0
+            "end": 7
           },
           {
             "text": "mchezo",
-            "start": 7.0,
+            "start": 7,
             "end": 7.539999961853027
           },
           {
@@ -51740,7 +51740,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           },
           {
@@ -51764,7 +51764,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0800000429153442
           },
           {
@@ -51843,12 +51843,12 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "hii",
-            "start": 1.0,
+            "start": 1,
             "end": 1.840000033378601
           },
           {
@@ -51922,7 +51922,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9599999785423279
           },
           {
@@ -51966,7 +51966,7 @@
         "word_timestamps": [
           {
             "text": "Ipo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.699999988079071
           },
           {
@@ -52000,7 +52000,7 @@
         "word_timestamps": [
           {
             "text": "Baadhi",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2200000286102295
           },
           {
@@ -52064,7 +52064,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9599999785423279
           },
           {
@@ -52088,12 +52088,12 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "wa",
-            "start": 1.0,
+            "start": 1,
             "end": 1.7799999713897705
           },
           {
@@ -52361,7 +52361,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9800000190734863
           },
           {
@@ -52402,7 +52402,7 @@
           {
             "text": "watazamaji",
             "start": 5.21999979019165,
-            "end": 6.0
+            "end": 6
           }
         ]
       }
@@ -52415,7 +52415,7 @@
         "word_timestamps": [
           {
             "text": "Ifuatayo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2599999904632568
           },
           {
@@ -52954,7 +52954,7 @@
         "word_timestamps": [
           {
             "text": "Sukuma",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0800000429153442
           },
           {
@@ -53043,7 +53043,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -53228,7 +53228,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1799999475479126
           },
           {
@@ -54080,7 +54080,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -55097,7 +55097,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -55598,7 +55598,7 @@
         "word_timestamps": [
           {
             "text": "Shirikiana",
-            "start": 0.0,
+            "start": 0,
             "end": 1.5
           },
           {
@@ -55686,7 +55686,7 @@
         "word_timestamps": [
           {
             "text": "Shirikiana",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
@@ -56115,7 +56115,7 @@
         "word_timestamps": [
           {
             "text": "Mnyama",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7400000095367432
           },
           {
@@ -56244,7 +56244,7 @@
         "word_timestamps": [
           {
             "text": "Koo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.46000000834465027
           }
         ]
@@ -56892,7 +56892,7 @@
         "word_timestamps": [
           {
             "text": "Umahiri",
-            "start": 0.0,
+            "start": 0,
             "end": 1.5
           },
           {
@@ -57247,7 +57247,7 @@
         "word_timestamps": [
           {
             "text": "Maonesho",
-            "start": 0.0,
+            "start": 0,
             "end": 1.399999976158142
           },
           {
@@ -57356,7 +57356,7 @@
         "word_timestamps": [
           {
             "text": "Unapopata",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0800000429153442
           },
           {
@@ -58267,7 +58267,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -60139,7 +60139,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -61793,7 +61793,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1200000047683716
           },
           {
@@ -61847,7 +61847,7 @@
         "word_timestamps": [
           {
             "text": "Wanafunzi",
-            "start": 0.0,
+            "start": 0,
             "end": 1.3200000524520874
           },
           {
@@ -61896,7 +61896,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.559999942779541
           },
           {
@@ -62542,7 +62542,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -63725,7 +63725,7 @@
         "word_timestamps": [
           {
             "text": "Washiriki",
-            "start": 0.0,
+            "start": 0,
             "end": 1.059999942779541
           },
           {
@@ -63771,11 +63771,11 @@
           {
             "text": "mchezo",
             "start": 7.420000076293945,
-            "end": 8.0
+            "end": 8
           },
           {
             "text": "husika",
-            "start": 8.0,
+            "start": 8,
             "end": 8.5600004196167
           }
         ]
@@ -63968,12 +63968,12 @@
         "word_timestamps": [
           {
             "text": "Andaa",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "vifaa",
-            "start": 1.0,
+            "start": 1,
             "end": 2.0999999046325684
           },
           {
@@ -64002,7 +64002,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -64064,7 +64064,7 @@
         "word_timestamps": [
           {
             "text": "Vaa",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8600000143051147
           },
           {
@@ -64165,7 +64165,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -64238,7 +64238,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
@@ -64369,7 +64369,7 @@
         "word_timestamps": [
           {
             "text": "Cheza",
-            "start": 0.0,
+            "start": 0,
             "end": 0.699999988079071
           },
           {
@@ -64595,7 +64595,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.440000057220459
           },
           {
@@ -64631,7 +64631,7 @@
           {
             "text": "sarakasi",
             "start": 6.380000114440918,
-            "end": 7.0
+            "end": 7
           }
         ]
       }
@@ -64644,7 +64644,7 @@
         "word_timestamps": [
           {
             "text": "Kazi",
-            "start": 0.0,
+            "start": 0,
             "end": 1.3200000524520874
           },
           {
@@ -64881,7 +64881,7 @@
         "word_timestamps": [
           {
             "text": "Ari",
-            "start": 0.0,
+            "start": 0,
             "end": 0.4000000059604645
           }
         ]
@@ -65052,7 +65052,7 @@
         "word_timestamps": [
           {
             "text": "Maonyesho",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1200000047683716
           },
           {
@@ -65262,11 +65262,11 @@
           {
             "text": "Ni",
             "start": 2.703083,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "kitu",
-            "start": 3.0,
+            "start": 3,
             "end": 3.2799999713897705
           },
           {
@@ -65282,11 +65282,11 @@
           {
             "text": "anatakiwa",
             "start": 4.380000114440918,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "kuzingatia",
-            "start": 5.0,
+            "start": 5,
             "end": 5.820000171661377
           },
           {
@@ -65374,7 +65374,7 @@
         "word_timestamps": [
           {
             "text": "b",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1200000047683716
           },
           {
@@ -65518,11 +65518,11 @@
           {
             "text": "uimbaji",
             "start": 8.260000228881836,
-            "end": 9.0
+            "end": 9
           },
           {
             "text": "wa",
-            "start": 9.0,
+            "start": 9,
             "end": 9.239999771118164
           },
           {
@@ -66784,7 +66784,7 @@
         "word_timestamps": [
           {
             "text": "2",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           }
         ]
@@ -66798,17 +66798,17 @@
         "word_timestamps": [
           {
             "text": "Jibu",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0399999618530273
           },
           {
             "text": "vipengele",
             "start": 1.0399999618530273,
-            "end": 2.0
+            "end": 2
           },
           {
             "text": "i",
-            "start": 2.0,
+            "start": 2,
             "end": 3.059999942779541
           },
           {
@@ -66819,11 +66819,11 @@
           {
             "text": "kwa",
             "start": 4.860000133514404,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "kuoanisha",
-            "start": 5.0,
+            "start": 5,
             "end": 5.880000114440918
           },
           {
@@ -66887,7 +66887,7 @@
         "word_timestamps": [
           {
             "text": "Orodha",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
@@ -66906,7 +66906,7 @@
         "word_timestamps": [
           {
             "text": "i",
-            "start": 0.0,
+            "start": 0,
             "end": 1.7200000286102295
           },
           {
@@ -66925,7 +66925,7 @@
         "word_timestamps": [
           {
             "text": "ii",
-            "start": 0.0,
+            "start": 0,
             "end": 1.8200000524520874
           },
           {
@@ -66944,7 +66944,7 @@
         "word_timestamps": [
           {
             "text": "iii",
-            "start": 0.0,
+            "start": 0,
             "end": 1.6799999475479126
           },
           {
@@ -66973,7 +66973,7 @@
         "word_timestamps": [
           {
             "text": "iv",
-            "start": 0.0,
+            "start": 0,
             "end": 1.8600000143051147
           },
           {
@@ -66992,7 +66992,7 @@
         "word_timestamps": [
           {
             "text": "Orodha",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2999999523162842
           },
           {
@@ -67011,7 +67011,7 @@
         "word_timestamps": [
           {
             "text": "a",
-            "start": 0.0,
+            "start": 0,
             "end": 1.9800000190734863
           },
           {
@@ -67035,7 +67035,7 @@
         "word_timestamps": [
           {
             "text": "b",
-            "start": 0.0,
+            "start": 0,
             "end": 1.8200000524520874
           },
           {
@@ -67051,11 +67051,11 @@
           {
             "text": "wa",
             "start": 4.28000020980835,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "asili",
-            "start": 5.0,
+            "start": 5,
             "end": 5.360000133514404
           }
         ]
@@ -67069,17 +67069,17 @@
         "word_timestamps": [
           {
             "text": "c",
-            "start": 0.0,
+            "start": 0,
             "end": 1.7000000476837158
           },
           {
             "text": "Kuweka",
             "start": 2.4600000381469727,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "alama",
-            "start": 3.0,
+            "start": 3,
             "end": 3.559999942779541
           },
           {
@@ -67108,12 +67108,12 @@
         "word_timestamps": [
           {
             "text": "d",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
             "text": "Kutoa",
-            "start": 2.0,
+            "start": 2,
             "end": 2.640000104904175
           },
           {
@@ -67285,16 +67285,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 0.800000011920929
-          },
-          {
-            "text": "a",
-            "start": 0.800000011920929,
-            "end": 1.059999942779541
-          },
-          {
             "text": "Sauti",
             "start": 1.059999942779541,
             "end": 1.7400000095367432
@@ -67338,16 +67328,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 0.8399999737739563
-          },
-          {
-            "text": "b",
-            "start": 0.8399999737739563,
-            "end": 1.059999942779541
-          },
           {
             "text": "jambo",
             "start": 1.399999976158142,
@@ -67403,16 +67383,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.8799999952316284
-          },
-          {
-            "text": "si",
-            "start": 0.8799999952316284,
-            "end": 1.3200000524520874
-          },
-          {
             "text": "Aina",
             "start": 1.3200000524520874,
             "end": 2.2799999713897705
@@ -67466,16 +67436,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kitengele",
-            "start": 0,
-            "end": 0.9200000166893005
-          },
-          {
-            "text": "d",
-            "start": 0.9200000166893005,
-            "end": 1.3799999952316284
-          },
           {
             "text": "Wanafunzi",
             "start": 1.5,
@@ -67596,16 +67556,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.9399999976158142
-          },
-          {
-            "text": "e",
-            "start": 0.9399999976158142,
-            "end": 1.399999976158142
-          },
-          {
             "text": "Umbo",
             "start": 1.399999976158142,
             "end": 1.9800000190734863
@@ -67650,9 +67600,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Me",
-            "start": 0,
-            "end": 0.3400000035762787
+            "text": "Nne",
+            "start": 2.259999990463257,
+            "end": 2.2799999713897705
           }
         ]
       }
@@ -67753,16 +67703,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.8600000143051147
-          },
-          {
-            "text": "a",
-            "start": 0.8600000143051147,
-            "end": 1.2200000286102295
-          },
-          {
             "text": "Maumbo",
             "start": 1.2200000286102295,
             "end": 2.259999990463257
@@ -67839,11 +67779,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "B",
-            "start": 0,
-            "end": 1.159999966621399
-          },
           {
             "text": "Katika",
             "start": 1.3200000524520874,
@@ -67931,21 +67866,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipe",
-            "start": 0,
-            "end": 0.5199999809265137
-          },
-          {
-            "text": "ngene",
-            "start": 0.5199999809265137,
-            "end": 0.9800000190734863
-          },
-          {
-            "text": "cha",
-            "start": 0.9800000190734863,
-            "end": 1.399999976158142
-          },
           {
             "text": "Mazoezi",
             "start": 1.399999976158142,
@@ -68039,16 +67959,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "d",
-            "start": 0.7599999904632568,
-            "end": 1.1200000047683716
-          },
-          {
             "text": "Sarakasi",
             "start": 1.2000000476837158,
             "end": 1.8200000524520874
@@ -68120,16 +68030,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 1.440000057220459
-          },
-          {
-            "text": "e",
-            "start": 1.440000057220459,
-            "end": 1.7799999713897705
-          },
           {
             "text": "Koni",
             "start": 1.7799999713897705,
@@ -68995,7 +68895,7 @@
         "word_timestamps": [
           {
             "text": "ari",
-            "start": 0.0,
+            "start": 0,
             "end": 0.4000000059604645
           }
         ]
@@ -74469,7 +74369,7 @@
         "word_timestamps": [
           {
             "text": "mchemstatili",
-            "start": 0.0,
+            "start": 0,
             "end": 1.899999976158142
           }
         ]
@@ -75499,7 +75399,7 @@
         "word_timestamps": [
           {
             "text": "msamiati",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0399999618530273
           }
         ]
@@ -113497,7 +113397,7 @@
         "word_timestamps": [
           {
             "text": "Sawazisha",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1399999856948853
           },
           {
@@ -113518,11 +113418,11 @@
           {
             "text": "na",
             "start": 3.2200000286102295,
-            "end": 4.0
+            "end": 4
           },
           {
             "text": "za",
-            "start": 4.0,
+            "start": 4,
             "end": 4.300000190734863
           },
           {
@@ -113606,7 +113506,7 @@
         "word_timestamps": [
           {
             "text": "Pia",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5
           },
           {
@@ -113818,7 +113718,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9800000190734863
           },
           {
@@ -113857,7 +113757,7 @@
         "word_timestamps": [
           {
             "text": "a",
-            "start": 0.0,
+            "start": 0,
             "end": 1.100000023841858
           },
           {
@@ -115214,7 +115114,7 @@
         "word_timestamps": [
           {
             "text": "Mchemstatili",
-            "start": 0.0,
+            "start": 0,
             "end": 1.899999976158142
           }
         ]
@@ -116572,7 +116472,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.3799999952316284
           }
         ]
@@ -116586,7 +116486,7 @@
         "word_timestamps": [
           {
             "text": "Baada",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -117405,7 +117305,7 @@
         "word_timestamps": [
           {
             "text": "c",
-            "start": 0.0,
+            "start": 0,
             "end": 1.399999976158142
           },
           {
@@ -117572,12 +117472,12 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "Na",
-            "start": 1.0,
+            "start": 1,
             "end": 1.6399999856948853
           },
           {
@@ -119027,7 +118927,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5799999833106995
           },
           {
@@ -120409,7 +120309,7 @@
         "word_timestamps": [
           {
             "text": "Kuna",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5799999833106995
           },
           {
@@ -120606,7 +120506,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.659999966621399
           },
           {
@@ -120650,7 +120550,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9200000166893005
           },
           {
@@ -120833,7 +120733,7 @@
         "word_timestamps": [
           {
             "text": "Mbio",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -120952,7 +120852,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7599999904632568
           },
           {
@@ -121046,12 +120946,12 @@
         "word_timestamps": [
           {
             "text": "Washiriki",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "katika",
-            "start": 1.0,
+            "start": 1,
             "end": 1.8200000524520874
           },
           {
@@ -121110,7 +121010,7 @@
         "word_timestamps": [
           {
             "text": "Mara",
-            "start": 0.0,
+            "start": 0,
             "end": 0.5400000214576721
           },
           {
@@ -121487,7 +121387,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -121992,7 +121892,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7200000286102295
           },
           {
@@ -122018,11 +121918,11 @@
           {
             "text": "mbio",
             "start": 2.619999885559082,
-            "end": 3.0
+            "end": 3
           },
           {
             "text": "za",
-            "start": 3.0,
+            "start": 3,
             "end": 3.2200000286102295
           },
           {
@@ -122041,7 +121941,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8999999761581421
           },
           {
@@ -122451,7 +122351,7 @@
         "word_timestamps": [
           {
             "text": "1",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1399999856948853
           },
           {
@@ -122462,11 +122362,11 @@
           {
             "text": "ulipocheza",
             "start": 3.0999999046325684,
-            "end": 4.0
+            "end": 4
           },
           {
             "text": "mchezo",
-            "start": 4.0,
+            "start": 4,
             "end": 4.559999942779541
           },
           {
@@ -122500,7 +122400,7 @@
         "word_timestamps": [
           {
             "text": "2",
-            "start": 0.0,
+            "start": 0,
             "end": 1.5
           },
           {
@@ -122569,7 +122469,7 @@
         "word_timestamps": [
           {
             "text": "3",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0399999618530273
           },
           {
@@ -122638,7 +122538,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6399999856948853
           },
           {
@@ -122744,11 +122644,11 @@
           {
             "text": "ya",
             "start": 10.819999694824219,
-            "end": 11.0
+            "end": 11
           },
           {
             "text": "watoto",
-            "start": 11.0,
+            "start": 11,
             "end": 11.539999961853027
           },
           {
@@ -122782,7 +122682,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8600000143051147
           },
           {
@@ -122851,7 +122751,7 @@
         "word_timestamps": [
           {
             "text": "Lengo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6600000262260437
           },
           {
@@ -122927,11 +122827,11 @@
           {
             "text": "miongoni",
             "start": 10.0600004196167,
-            "end": 11.0
+            "end": 11
           },
           {
             "text": "mwa",
-            "start": 11.0,
+            "start": 11,
             "end": 11.180000305175781
           },
           {
@@ -122950,7 +122850,7 @@
         "word_timestamps": [
           {
             "text": "Ni",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           },
           {
@@ -123149,7 +123049,7 @@
         "word_timestamps": [
           {
             "text": "Kila",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0399999618530273
           },
           {
@@ -123306,7 +123206,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -123320,7 +123220,7 @@
         "word_timestamps": [
           {
             "text": "Mwongozaji",
-            "start": 0.0,
+            "start": 0,
             "end": 1.3600000143051147
           },
           {
@@ -123536,7 +123436,7 @@
         "word_timestamps": [
           {
             "text": "Kama",
-            "start": 0.0,
+            "start": 0,
             "end": 0.699999988079071
           },
           {
@@ -123639,7 +123539,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -123756,7 +123656,7 @@
         "word_timestamps": [
           {
             "text": "Kuku",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6000000238418579
           },
           {
@@ -123802,7 +123702,7 @@
           {
             "text": "yeyote",
             "start": 5.360000133514404,
-            "end": 6.0
+            "end": 6
           },
           {
             "text": "mchezo",
@@ -124171,7 +124071,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.800000011920929
           },
           {
@@ -124503,7 +124403,7 @@
         "word_timestamps": [
           {
             "text": "Shirikiana",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2200000286102295
           },
           {
@@ -124552,7 +124452,7 @@
         "word_timestamps": [
           {
             "text": "1",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6399999856948853
           },
           {
@@ -124635,7 +124535,7 @@
         "word_timestamps": [
           {
             "text": "3",
-            "start": 0.0,
+            "start": 0,
             "end": 1.9199999570846558
           },
           {
@@ -124744,7 +124644,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
@@ -124795,11 +124695,11 @@
           {
             "text": "katika",
             "start": 6.159999847412109,
-            "end": 7.0
+            "end": 7
           },
           {
             "text": "mchezo",
-            "start": 7.0,
+            "start": 7,
             "end": 7.539999961853027
           },
           {
@@ -124818,7 +124718,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9200000166893005
           },
           {
@@ -124887,7 +124787,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0199999809265137
           },
           {
@@ -124961,7 +124861,7 @@
         "word_timestamps": [
           {
             "text": "Michezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.340000033378601
           },
           {
@@ -125000,7 +124900,7 @@
         "word_timestamps": [
           {
             "text": "Kuna",
-            "start": 0.0,
+            "start": 0,
             "end": 0.4399999976158142
           },
           {
@@ -125034,7 +124934,7 @@
         "word_timestamps": [
           {
             "text": "Baadhi",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8399999737739563
           },
           {
@@ -125065,11 +124965,11 @@
           {
             "text": "mpira",
             "start": 4.71999979019165,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "wa",
-            "start": 5.0,
+            "start": 5,
             "end": 5.179999828338623
           },
           {
@@ -125093,17 +124993,17 @@
         "word_timestamps": [
           {
             "text": "Sarakasi",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7799999713897705
           },
           {
             "text": "ni",
             "start": 0.7799999713897705,
-            "end": 1.0
+            "end": 1
           },
           {
             "text": "mchezo",
-            "start": 1.0,
+            "start": 1,
             "end": 1.5800000429153442
           },
           {
@@ -125371,7 +125271,7 @@
         "word_timestamps": [
           {
             "text": "Mchezo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8600000143051147
           },
           {
@@ -125415,7 +125315,7 @@
         "word_timestamps": [
           {
             "text": "Ifuatayo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1399999856948853
           },
           {
@@ -125464,7 +125364,7 @@
         "word_timestamps": [
           {
             "text": "Katika",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7400000095367432
           },
           {
@@ -125787,7 +125687,7 @@
         "word_timestamps": [
           {
             "text": "Sukuma",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1799999475479126
           },
           {
@@ -125876,7 +125776,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -125987,7 +125887,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.059999942779541
           },
           {
@@ -126633,7 +126533,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -127365,7 +127265,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -127658,7 +127558,7 @@
         "word_timestamps": [
           {
             "text": "Shirikianeni",
-            "start": 0.0,
+            "start": 0,
             "end": 1.5
           },
           {
@@ -128029,7 +127929,7 @@
         "word_timestamps": [
           {
             "text": "Mnyama",
-            "start": 0.0,
+            "start": 0,
             "end": 0.7400000095367432
           },
           {
@@ -128153,7 +128053,7 @@
         "word_timestamps": [
           {
             "text": "Koo",
-            "start": 0.0,
+            "start": 0,
             "end": 0.46000000834465027
           }
         ]
@@ -128566,7 +128466,7 @@
         "word_timestamps": [
           {
             "text": "Umahiri",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6800000071525574
           },
           {
@@ -128779,7 +128679,7 @@
         "word_timestamps": [
           {
             "text": "Maonesho",
-            "start": 0.0,
+            "start": 0,
             "end": 1.2400000095367432
           },
           {
@@ -128810,11 +128710,11 @@
           {
             "text": "na",
             "start": 4.400000095367432,
-            "end": 5.0
+            "end": 5
           },
           {
             "text": "mashindano",
-            "start": 5.0,
+            "start": 5,
             "end": 5.599999904632568
           },
           {
@@ -128888,7 +128788,7 @@
         "word_timestamps": [
           {
             "text": "Ukipata",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9200000166893005
           },
           {
@@ -129750,7 +129650,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -131520,7 +131420,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -133102,7 +133002,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.159999966621399
           },
           {
@@ -133151,7 +133051,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.559999942779541
           },
           {
@@ -133733,7 +133633,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -134818,7 +134718,7 @@
         "word_timestamps": [
           {
             "text": "Washiriki",
-            "start": 0.0,
+            "start": 0,
             "end": 0.9399999976158142
           },
           {
@@ -135061,7 +134961,7 @@
         "word_timestamps": [
           {
             "text": "Andaa",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8999999761581421
           },
           {
@@ -135095,7 +134995,7 @@
         "word_timestamps": [
           {
             "text": "4",
-            "start": 0.0,
+            "start": 0,
             "end": 0.47999998927116394
           }
         ]
@@ -135109,12 +135009,12 @@
         "word_timestamps": [
           {
             "text": "Vaa",
-            "start": 0.0,
-            "end": 1.0
+            "start": 0,
+            "end": 1
           },
           {
             "text": "mavazi",
-            "start": 1.0,
+            "start": 1,
             "end": 1.6799999475479126
           },
           {
@@ -135157,7 +135057,7 @@
         "word_timestamps": [
           {
             "text": "Vaa",
-            "start": 0.0,
+            "start": 0,
             "end": 0.8199999928474426
           },
           {
@@ -135258,7 +135158,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.800000011920929
           },
           {
@@ -135331,7 +135231,7 @@
         "word_timestamps": [
           {
             "text": "Fanya",
-            "start": 0.0,
+            "start": 0,
             "end": 0.6200000047683716
           },
           {
@@ -135467,7 +135367,7 @@
         "word_timestamps": [
           {
             "text": "Cheza",
-            "start": 0.0,
+            "start": 0,
             "end": 0.800000011920929
           },
           {
@@ -135569,7 +135469,7 @@
         "word_timestamps": [
           {
             "text": "Kielelezo",
-            "start": 0.0,
+            "start": 0,
             "end": 1.0199999809265137
           },
           {
@@ -135797,7 +135697,7 @@
         "word_timestamps": [
           {
             "text": "Ari",
-            "start": 0.0,
+            "start": 0,
             "end": 0.4000000059604645
           }
         ]
@@ -135998,7 +135898,7 @@
         "word_timestamps": [
           {
             "text": "Maonyesho",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1200000047683716
           },
           {
@@ -136022,7 +135922,7 @@
         "word_timestamps": [
           {
             "text": "Maonyesho",
-            "start": 0.0,
+            "start": 0,
             "end": 0.800000011920929
           },
           {
@@ -136033,11 +135933,11 @@
           {
             "text": "sanaa",
             "start": 1.059999942779541,
-            "end": 2.0
+            "end": 2
           },
           {
             "text": "yanahusisha",
-            "start": 2.0,
+            "start": 2,
             "end": 2.740000009536743
           },
           {
@@ -136301,7 +136201,7 @@
         "word_timestamps": [
           {
             "text": "b",
-            "start": 0.0,
+            "start": 0,
             "end": 1.1200000047683716
           },
           {
@@ -136389,7 +136289,7 @@
         "word_timestamps": [
           {
             "text": "ii",
-            "start": 0.0,
+            "start": 0,
             "end": 1.543083
           },
           {
@@ -136959,7 +136859,7 @@
           {
             "text": "maarufu",
             "start": 4.400000095367432,
-            "end": 5.0
+            "end": 5
           }
         ]
       }
@@ -137705,16 +137605,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 1.2799999713897705
-          },
-          {
-            "text": "a",
-            "start": 1.2799999713897705,
-            "end": 1.7000000476837158
-          },
-          {
             "text": "Sauti",
             "start": 1.7000000476837158,
             "end": 2.4600000381469727
@@ -137763,16 +137653,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "kipengele",
-            "start": 0,
-            "end": 1.059999942779541
-          },
-          {
-            "text": "d",
-            "start": 1.059999942779541,
-            "end": 1.5
-          },
           {
             "text": "jambo",
             "start": 1.5,
@@ -137827,16 +137707,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 1.0199999809265137
-          },
-          {
-            "text": "c",
-            "start": 1.0199999809265137,
-            "end": 1.7599999904632568
-          },
           {
             "text": "Aina",
             "start": 2.4600000381469727,
@@ -137896,16 +137766,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 0.9200000166893005
-          },
-          {
-            "text": "d",
-            "start": 0.9200000166893005,
-            "end": 1.2599999904632568
-          },
           {
             "text": "Wanafunzi",
             "start": 1.5,
@@ -138021,16 +137881,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengele",
-            "start": 0,
-            "end": 1.6799999475479126
-          },
-          {
-            "text": "e",
-            "start": 1.6799999475479126,
-            "end": 2.059999942779541
-          },
-          {
             "text": "Umbo",
             "start": 2.880000114440918,
             "end": 3.059999942779541
@@ -138080,9 +137930,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Me",
-            "start": 0,
-            "end": 0.3400000035762787
+            "text": "Nne",
+            "start": 2.259999990463257,
+            "end": 2.2799999713897705
           }
         ]
       }
@@ -138188,16 +138038,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.8600000143051147
-          },
-          {
-            "text": "a",
-            "start": 0.8600000143051147,
-            "end": 1.2200000286102295
-          },
-          {
             "text": "Maumbo",
             "start": 1.2200000286102295,
             "end": 2.259999990463257
@@ -138274,21 +138114,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Ki",
-            "start": 0,
-            "end": 0.6600000262260437
-          },
-          {
-            "text": "pengene",
-            "start": 0.6600000262260437,
-            "end": 1.1799999475479126
-          },
-          {
-            "text": "b",
-            "start": 1.1799999475479126,
-            "end": 2.2200000286102295
-          },
           {
             "text": "katika",
             "start": 2.2200000286102295,
@@ -138376,21 +138201,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Kipe",
-            "start": 0,
-            "end": 0.5199999809265137
-          },
-          {
-            "text": "ngene",
-            "start": 0.5199999809265137,
-            "end": 0.9800000190734863
-          },
-          {
-            "text": "cha",
-            "start": 0.9800000190734863,
-            "end": 1.399999976158142
-          },
           {
             "text": "Mazoezi",
             "start": 1.399999976158142,
@@ -138484,16 +138294,6 @@
       {
         "word_timestamps": [
           {
-            "text": "Kipengene",
-            "start": 0,
-            "end": 0.7599999904632568
-          },
-          {
-            "text": "d",
-            "start": 0.7599999904632568,
-            "end": 1.1200000047683716
-          },
-          {
             "text": "Sarakasi",
             "start": 1.2000000476837158,
             "end": 1.8200000524520874
@@ -138565,21 +138365,6 @@
       null,
       {
         "word_timestamps": [
-          {
-            "text": "Hipe",
-            "start": 0,
-            "end": 0.6200000047683716
-          },
-          {
-            "text": "mgele",
-            "start": 0.6200000047683716,
-            "end": 1.1799999475479126
-          },
-          {
-            "text": "e",
-            "start": 1.1799999475479126,
-            "end": 1.5199999809265137
-          },
           {
             "text": "Koni",
             "start": 1.5199999809265137,
@@ -140299,6 +140084,366 @@
             "text": "anayefikiri",
             "start": 1.1200000047683716,
             "end": 1.9600000381469727
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_a": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.0199999809265137
+          },
+          {
+            "text": "a",
+            "start": 1.0199999809265137,
+            "end": 1.440000057220459
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_a_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.0199999809265137
+          },
+          {
+            "text": "a",
+            "start": 1.0199999809265137,
+            "end": 1.440000057220459
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_b": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0.21599984741210587,
+            "end": 0.7559998092651332
+          },
+          {
+            "text": "b",
+            "start": 0.7559998092651332,
+            "end": 0.9960000572204555
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_b_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0.21599984741210587,
+            "end": 0.7559998092651332
+          },
+          {
+            "text": "b",
+            "start": 0.7559998092651332,
+            "end": 0.9960000572204555
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_c": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 1.659999966621399
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_c_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 1.659999966621399
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_d": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.100000023841858
+          },
+          {
+            "text": "d",
+            "start": 1.100000023841858,
+            "end": 1.8799999952316284
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_d_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.100000023841858
+          },
+          {
+            "text": "d",
+            "start": 1.100000023841858,
+            "end": 1.8799999952316284
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_e": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 0.9399999976158142
+          },
+          {
+            "text": "e",
+            "start": 0.9399999976158142,
+            "end": 1.3200000524520874
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q3_e_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 0.9399999976158142
+          },
+          {
+            "text": "e",
+            "start": 0.9399999976158142,
+            "end": 1.3200000524520874
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_a": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.0199999809265137
+          },
+          {
+            "text": "a",
+            "start": 1.0199999809265137,
+            "end": 1.440000057220459
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_a_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.0199999809265137
+          },
+          {
+            "text": "a",
+            "start": 1.0199999809265137,
+            "end": 1.440000057220459
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_b": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0.21599984741210587,
+            "end": 0.7559998092651332
+          },
+          {
+            "text": "b",
+            "start": 0.7559998092651332,
+            "end": 0.9960000572204555
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_b_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0.21599984741210587,
+            "end": 0.7559998092651332
+          },
+          {
+            "text": "b",
+            "start": 0.7559998092651332,
+            "end": 0.9960000572204555
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_c": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 1.659999966621399
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_c_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 1.659999966621399
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_d": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.100000023841858
+          },
+          {
+            "text": "d",
+            "start": 1.100000023841858,
+            "end": 1.8799999952316284
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_d_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 1.100000023841858
+          },
+          {
+            "text": "d",
+            "start": 1.100000023841858,
+            "end": 1.8799999952316284
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_e": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 0.9399999976158142
+          },
+          {
+            "text": "e",
+            "start": 0.9399999976158142,
+            "end": 1.3200000524520874
+          }
+        ]
+      }
+    ]
+  },
+  "pg079_label_q4_e_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Kipengele",
+            "start": 0,
+            "end": 0.9399999976158142
+          },
+          {
+            "text": "e",
+            "start": 0.9399999976158142,
+            "end": 1.3200000524520874
           }
         ]
       }
