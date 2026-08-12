@@ -54,18 +54,18 @@
         "word_timestamps": [
           {
             "text": "Darasa",
-            "start": 0,
-            "end": 1.1399999856948853
+            "start": 0.016,
+            "end": 0.496
           },
           {
             "text": "la",
-            "start": 1.1399999856948853,
-            "end": 1.7599999904632568
+            "start": 0.496,
+            "end": 0.836
           },
           {
-            "text": "N’ne",
-            "start": 1.7599999904632568,
-            "end": 1.9600000381469727
+            "text": "Nne",
+            "start": 0.836,
+            "end": 1.376
           }
         ]
       }
@@ -140384,6 +140384,30 @@
             "text": "kuchorea",
             "start": 3.2200000286102295,
             "end": 3.819999933242798
+          }
+        ]
+      }
+    ]
+  },
+  "pg001_n0004_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "Darasa",
+            "start": 0.016,
+            "end": 0.496
+          },
+          {
+            "text": "la",
+            "start": 0.496,
+            "end": 0.836
+          },
+          {
+            "text": "Nne",
+            "start": 0.836,
+            "end": 1.376
           }
         ]
       }
