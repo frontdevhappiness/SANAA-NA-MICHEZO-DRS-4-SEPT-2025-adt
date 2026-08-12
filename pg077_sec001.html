@@ -16,11 +16,21 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      .questions input,
+      .questions .feedback-container { display: none; }
+      .questions fieldset { border: 0; background: transparent; padding: 0; }
+      .questions label.activity-option {
+        display: block;
+        cursor: default;
+        border: 0;
+        background: transparent;
+        padding: 0 0 0 1rem;
+      }
     </style></head>
 
 <body class="min-h-screen flex items-center justify-center">
     <main class="w-full">
-      <div id="content" class="container opacity-0"><section lang="sw-TZ" data-section-type="activity_multiple_choice" data-section-id="pg077_sec001" class="mx-auto w-full max-w-5xl min-h-screen bg-white text-neutral-800 px-20 max-lg:px-14 max-sm:px-5 py-10 relative overflow-hidden"><div aria-hidden="true" class="absolute inset-0 pointer-events-none"><div class="absolute inset-0" style="background-image:url(/api/books/SANAA-NA-MICHEZO-DRS-4-SEPT-2025/images/pg007_upload1);background-position:center;background-size:108% 108%;background-repeat:no-repeat;"></div><div class="absolute bg-white" style="inset:6% 8.5%;"></div></div><div class="relative z-10 pt-12 max-sm:pt-7 pb-12">
+      <div id="content" class="container opacity-0"><section lang="sw-TZ" data-section-type="text_only" data-section-id="pg077_sec001" class="mx-auto w-full max-w-5xl min-h-screen bg-white text-neutral-800 px-20 max-lg:px-14 max-sm:px-5 py-10 relative overflow-hidden"><div aria-hidden="true" class="absolute inset-0 pointer-events-none"><div class="absolute inset-0" style="background-image:url(/api/books/SANAA-NA-MICHEZO-DRS-4-SEPT-2025/images/pg007_upload1);background-position:center;background-size:108% 108%;background-repeat:no-repeat;"></div><div class="absolute bg-white" style="inset:6% 8.5%;"></div></div><div class="relative z-10 mx-auto w-full rounded-3xl border border-orange-300 bg-orange-50/70 px-8 pb-12 pt-12 shadow-sm max-sm:px-5 max-sm:pt-7" style="max-width:52rem;">
   <h1 data-id="pg077_n0002" class="adt-h1 mb-5 text-center font-bold text-sky-500">Jaribio</h1>
   <p data-id="pg077_n0003" class="adt-body mb-5 font-bold">Jibu maswali yote.</p>
   <div class="mb-5 grid grid-cols-[2.25rem_1fr] gap-2 adt-body leading-relaxed"><span data-id="pg077_n0005" class="font-normal">1.</span><p data-id="pg077_n0006">Jibu kipengele (i) hadi (v) kwa kuchagua herufi ya jibu sahihi.</p></div>
@@ -35,9 +45,6 @@
 </div></section></div>
     </main>
 
-    <script type="text/javascript">
-        window.correctAnswers = JSON.parse('{"item-q1-a":false,"item-q1-b":true,"item-q1-c":false,"item-q2-a":false,"item-q2-b":true,"item-q2-c":false,"item-q3-a":false,"item-q3-b":false,"item-q3-c":true,"item-q4-a":false,"item-q4-b":true,"item-q4-c":false,"item-q5-a":false,"item-q5-b":true,"item-q5-c":false,"item-q6-a":true,"item-q6-b":false,"item-q6-c":false}');
-    </script>
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
     <script src="./assets/offline-preloader.js"></script>
