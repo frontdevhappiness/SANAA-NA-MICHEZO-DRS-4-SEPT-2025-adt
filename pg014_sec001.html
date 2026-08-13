@@ -16,6 +16,8 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Atkinson Hyperlegible','Merriweather',sans-serif; }
+      .pg014-image-frame { aspect-ratio:354 / 389; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+      .pg014-image-frame img { display:block; width:100%; height:100%; object-fit:contain; }
     </style></head>
 
 <body class="min-h-screen flex items-center justify-center">
@@ -30,8 +32,8 @@
       <p class="adt-body mb-5 leading-relaxed text-justify"><span data-id="pg014_n0002" class="text-red-600">Mazoezi ya kucheka au kulia.</span> <span data-id="pg014_n0003">Mazoezi hayo humsaidia mwigizaji kuamsha na kumudu hisia kwa ufanisi.</span> <span data-id="pg014_n0004">Kucheka na kulia ni hisia za kawaida lakini inaweza kuwa changamoto kuzionesha kwa uhalisia katika uigizaji.</span> <span data-id="pg014_n0005">Mwigizaji anaweza kucheka au kulia kwa sauti ya chini au ya juu, kama inavyoonekana katika Kielelezo namba 1.</span></p>
       <figure class="mb-5">
         <div class="grid grid-cols-2 gap-0 max-sm:grid-cols-1">
-          <div><div data-id="pg014_n0008" class="adt-h3 mb-1 text-center font-bold">A</div><div class="border border-red-400"><img data-id="pg014_im001" src="images/pg014_im001.jpg" alt="Mchoro wa mwigizaji akilia wakati wa mazoezi ya hisia." class="h-72 w-full object-contain" style="max-width: 100%; height: auto;"></div></div>
-          <div><div data-id="pg014_n0010" class="adt-h3 mb-1 text-center font-bold">B</div><div class="border border-red-400" style="border-left-width:0"><img data-id="pg014_im002" src="images/pg014_im002.jpg" alt="Mchoro wa mwigizaji akicheka wakati wa mazoezi ya hisia." class="h-72 w-full object-contain" style="max-width: 100%; height: auto;"></div></div>
+          <div><div data-id="pg014_n0008" class="adt-h3 mb-1 text-center font-bold">A</div><div class="pg014-image-frame border border-red-400"><img data-id="pg014_im001" src="images/pg014_im001.jpg" alt="Mchoro wa mwigizaji akilia wakati wa mazoezi ya hisia."></div></div>
+          <div><div data-id="pg014_n0010" class="adt-h3 mb-1 text-center font-bold">B</div><div class="pg014-image-frame border border-red-400" style="border-left-width:0"><img data-id="pg014_im002" src="images/pg014_im002.jpg" alt="Mchoro wa mwigizaji akicheka wakati wa mazoezi ya hisia."></div></div>
         </div>
         <figcaption data-id="pg014_n0012" class="adt-caption mt-2 text-center italic"><strong class>Kielelezo Na 1:</strong> A Mwigizaji akifanya mazoezi ya kulia na B Mwigizaji akifanya mazoezi ya kucheka</figcaption>
       </figure>
@@ -59,7 +61,7 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
-    <script src="./assets/offline-preloader.js"></script>
+    <script src="./assets/offline-preloader.js?v=1"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>
 </body>
