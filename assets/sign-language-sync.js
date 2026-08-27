@@ -70,12 +70,6 @@
     if (result && typeof result.catch === "function") result.catch(function () {});
   }
 
-  function signToggle() {
-    return document.querySelector(
-      'button[aria-label="Lugha ya ishara"], button[aria-label="Sign language"], button[aria-label*="lugha ya ishara" i], button[aria-label*="sign language" i]'
-    );
-  }
-
   function ensureSignVideo(reset, attempt) {
     window.clearTimeout(retryTimer);
     var video = signVideo();
@@ -83,9 +77,6 @@
       playSignVideo(video, reset);
       return;
     }
-
-    var toggle = signToggle();
-    if (toggle && toggle.getAttribute("aria-pressed") !== "true") toggle.click();
 
     if (attempt < 20 && ttsPlaying) {
       retryTimer = window.setTimeout(function () {
@@ -232,6 +223,16 @@
           muteVideo(video);
           if (ttsPlaying) playSignVideo(video, false);
           else nativePause.call(video);
+        });
+      });
+
+      mutation.removedNodes.forEach(function (node) {
+        if (!(node instanceof Element)) return;
+        var videos = node.matches("video")
+          ? [node]
+          : Array.from(node.querySelectorAll("video"));
+        videos.forEach(function (video) {
+          if (isSignVideo(video)) nativePause.call(video);
         });
       });
     });
