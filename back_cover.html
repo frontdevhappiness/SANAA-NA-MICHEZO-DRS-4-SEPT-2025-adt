@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="sw-TZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sanaa na Michezo Kitabu cha Mwanafunzi Darasa la 4 — Jalada la nyuma</title>
+  <meta name="title-id" content="back_cover_sec001">
+  <meta name="page-section-id" content="0">
+  <link href="./content/tailwind_output.css" rel="stylesheet">
+  <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="./assets/fonts.css" rel="stylesheet">
+  <style>
+    :root { --dock:var(--dock-height,96px); color-scheme:light; }
+    html,body { margin:0; min-height:100%; }
+    body { overflow-x:hidden; overflow-y:auto; background:#fff4e7; }
+    .cover-shell {
+      box-sizing:border-box;
+      display:grid;
+      place-items:center;
+      min-height:calc(100vh - var(--dock));
+      padding:clamp(.5rem,2vw,1.5rem) clamp(.5rem,3vw,2rem) calc(var(--dock) + clamp(1rem,3vw,2rem));
+    }
+    .back-cover {
+      display:block;
+      width:auto;
+      max-width:min(100%,44rem);
+      max-height:calc(100vh - var(--dock) - clamp(1.5rem,4vw,3rem));
+      height:auto;
+      object-fit:contain;
+      box-shadow:0 1.1rem 3rem rgba(130,76,22,.2);
+    }
+    @media (max-width:44rem) {
+      .cover-shell { padding:.5rem .5rem calc(var(--dock) + .5rem); }
+      .back-cover { box-shadow:none; }
+    }
+  </style>
+</head>
+<body>
+  <main id="content" class="cover-shell">
+    <section data-section-id="back_cover_sec001" aria-label="Jalada la nyuma">
+      <img class="back-cover" src="images/sanaa_na_michezo_darasa_la_4_back_cover.png"
+        alt="Jalada la nyuma la Sanaa na Michezo, Kitabu cha Mwanafunzi Darasa la Nne. Linaonyesha vitabu vingine vya Darasa la Nne vilivyochapishwa na Taasisi ya Elimu Tanzania pamoja na msimbo pau wa ISBN 978-9912-756-11-3.">
+    </section>
+  </main>
+  <div class="relative z-50" id="interface-container"></div>
+  <div class="relative z-50" id="nav-container"></div>
+  <script src="./assets/offline-preloader.js?v=20"></script>
+  <script src="./assets/scorm.js"></script>
+  <script src="./assets/sign-language-sync.js?v=1"></script>
+  <script src="./assets/base.bundle.local.js"></script>
+  <script>
+    (function labelUnnumberedBackCover() {
+      var nav = document.getElementById("nav-container");
+      function update() {
+        var current = nav.querySelector(".order-3 > span:first-child");
+        if (current && current.textContent.trim() === "0") current.textContent = "Jalada la nyuma";
+      }
+      new MutationObserver(update).observe(nav, { childList:true, subtree:true, characterData:true });
+      update();
+    })();
+  </script>
+</body>
+</html>
