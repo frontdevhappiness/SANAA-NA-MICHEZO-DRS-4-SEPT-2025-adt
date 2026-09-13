@@ -53,6 +53,14 @@ The English-letter update is included in the English-letter pronunciation commit
 
 ## Generate and review three samples first
 
+Cover narration is installed: `cover_narration` reads the title, class and
+publisher; `back_cover_narration` describes the back cover. Both cover images
+carry the corresponding `data-id`, with matching alt text and offline copies.
+All 2,078 recordings and timings passed validation (2,999 mapped IDs).
+Cover sign-video mappings remain absent. Backup before installation:
+`.kore-tts/reader-backup-20260913-142808-031642/`.
+Cover changes are included in the cover-narration commit; browser playback needs listening review.
+
 Run from the workspace root in the VS Code terminal:
 
 ```bash
@@ -175,3 +183,5 @@ API calls or assess generated pronunciation. The scripts do not push, commit or 
 References: [Gemini TTS](https://ai.google.dev/gemini-api/docs/generate-content/speech-generation),
 [stable-ts](https://github.com/jianfch/stable-ts),
 [faster-whisper](https://github.com/SYSTRAN/faster-whisper).
+
+Expanded cover-description revision installed: both cover texts and matching HTML/offline alt descriptions now include the government-property notice and fuller image descriptions, checked against the actual cover images. Both replacement recordings and measured timings are installed. All 2,078 recordings passed installation validation, and installed cover checksums and offline data were verified. Backup: `.kore-tts/reader-backup-20260913-145028-854834/`. Listening review remains pending; changes are included in the cover-narration commit.
