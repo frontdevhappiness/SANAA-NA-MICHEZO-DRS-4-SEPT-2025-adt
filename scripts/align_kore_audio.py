@@ -68,6 +68,28 @@ def display_timings(text, narration, aligned):
                 continue  # Context labels such as "Kipengele" are not printed words.
             elif kind == 'replace' and b - a == 1 and d > c:
                 result[a] = {'text': source[a], 'start': timed[c]['start'], 'end': timed[d-1]['end']}
+            elif kind == 'replace' and b - a > 1:
+                # Map consecutive pencil grades or a Roman range to their measured
+                # spoken expansions, without splitting time spans artificially.
+                expansions = {'2B': ['mbili', 'B'], '4B': ['nne', 'B'],
+                              'i': ['moja'], 'ii': ['mbili'], 'iii': ['tatu'],
+                              'iv': ['nne'], 'v': ['tano'], 'vi': ['sita'],
+                              'vii': ['saba'], 'viii': ['nane'], 'ix': ['tisa'], 'x': ['kumi']}
+                position = c
+                for i in range(a, b):
+                    if i > a and position < d and spoken[position].casefold() == 'hadi':
+                        # The spoken range separator has no displayed word index.
+                        if not re.search(r'\(' + re.escape(source[i-1]) + r'\)\s*-\s*\(' + re.escape(source[i]) + r'\)', text):
+                            raise ValueError('Unexpected spoken range separator')
+                        position += 1
+                    expansion = expansions.get(source[i], [source[i]])
+                    end = position + len(expansion)
+                    if end > d or [w.casefold() for w in spoken[position:end]] != [w.casefold() for w in expansion]:
+                        raise ValueError('Spoken expansion does not match displayed words')
+                    result[i] = {'text': source[i], 'start': timed[position]['start'], 'end': timed[end-1]['end']}
+                    position = end
+                if position != d:
+                    raise ValueError('Unmapped spoken expansion words')
             else:
                 raise ValueError('Narration/display differences need explicit mapping')
     if not result or any(w is None or w['end'] <= w['start'] for w in result):

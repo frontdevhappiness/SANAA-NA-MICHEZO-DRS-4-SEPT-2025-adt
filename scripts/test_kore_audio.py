@@ -15,6 +15,30 @@ import install_kore_audio as installer
 
 
 class KoreTests(unittest.TestCase):
+    def test_roman_and_pencil_pronunciation(self):
+        jobs, mapping = generate.plan('gemini-3.1-flash-tts-preview')
+        self.assertEqual(jobs[mapping['pg026_n0033']]['narration'], 'moja')
+        self.assertEqual(jobs[mapping['pg026_n0003']]['narration'], 'mbili')
+        self.assertEqual(jobs[mapping['pg039_n0014']]['narration'], 'Kipengele i')
+        self.assertEqual(jobs[mapping['pg070_n0039_easy_read']]['narration'], 'Kipengele i')
+        self.assertIn('mbili B', jobs[mapping['pg025_n0017']]['narration'])
+        self.assertIn('nne B', jobs[mapping['pg025_n0017']]['narration'])
+        language = generate.ROOT / 'content/i18n/sw-TZ'
+        installed = generate.installation_mapping(
+            json.loads((language / 'audios.json').read_text()), mapping,
+            json.loads((language / 'texts.json').read_text()))
+        self.assertNotEqual(installed['pg026_n0033'], installed['pg039_n0014'])
+
+    def test_adjacent_spoken_expansions_map_to_measured_words(self):
+        for text, narration in [('2B 4B', 'mbili B nne B'),
+                                ('(i)-(iv)', 'moja hadi nne')]:
+            spoken = align.tokens(narration)
+            words = [{'word': word, 'start': i, 'end': i + .8} for i, word in enumerate(spoken)]
+            result = align.display_timings(text, narration, words)
+            self.assertEqual([w['text'] for w in result], align.tokens(text))
+            self.assertEqual(result[0]['start'], 0)
+            self.assertEqual(result[-1]['end'], words[-1]['end'])
+
     def test_validation_retries_decoder_crash(self):
         with patch.object(installer.subprocess, 'run', side_effect=[
                 subprocess.CalledProcessError(-11, ['ffmpeg']), None]) as decode, \

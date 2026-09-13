@@ -1,7 +1,7 @@
 # Kore narration — Sanaa na Michezo
 
 The website is this repository's root; its language is `sw-TZ`. The current
-audit finds 2,997 audio IDs and 2,075 distinct narration jobs, including easy-read,
+audit finds 2,997 audio IDs and 2,076 distinct narration jobs, including easy-read,
 glossary, activity and image-description audio. The scripts are adapted from the
 Afya workspace referenced in the supplied guide. Kore narration and new word timings were installed on 2026-09-13.
 
@@ -15,6 +15,20 @@ The original reader backup is
 `.kore-tts/reader-backup-20260913-121756-317176/`.
 The installed audio, timings and reusable scripts are included in the Kore installation commit.
 No push or export was performed.
+
+## Pronunciation correction installed
+
+The 62 affected recordings were regenerated and installed with measured timings.
+Pencil grades use “mbili B” and “nne B”; Roman list numbers use “moja”, “mbili”,
+and the corresponding Swahili cardinal numbers. The two alphabetical lists retain
+letter “i” through `kore_narration_id_overrides.json`. Different meanings of the
+same printed label now use separate audio files, bringing the current total to
+2,076 recordings. Printed text, sign-video mappings and decorative exclusions
+are unchanged. Validation and post-install tests passed.
+
+Backup before this correction:
+`.kore-tts/reader-backup-20260913-133756-161271/`.
+These pronunciation corrections are included in the pencil-grade and Roman-numeral pronunciation commit.
 
 ## Generate and review three samples first
 

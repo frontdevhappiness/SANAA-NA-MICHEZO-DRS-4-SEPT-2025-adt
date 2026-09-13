@@ -58,6 +58,8 @@ def plan(model):
     old = json.loads((source / 'audios.json').read_text())
     override_path = ROOT / 'scripts/kore_narration_overrides.json'
     overrides = json.loads(override_path.read_text()) if override_path.exists() else {}
+    id_override_path = ROOT / 'scripts/kore_narration_id_overrides.json'
+    id_overrides = json.loads(id_override_path.read_text()) if id_override_path.exists() else {}
     jobs, mapping, aliases = {}, {}, {}
     for text_id in old:
         text = texts[text_id]
@@ -70,8 +72,8 @@ def plan(model):
         aliases[filename] = text
         narration = spoken_text(text)
         style = STYLE
-        if text in overrides:
-            override = overrides[text]
+        override = id_overrides.get(text_id, overrides.get(text))
+        if override is not None:
             narration = override['narration']
             style = (
                 'Generate a single-speaker recording in Tanzanian Swahili. '
@@ -90,7 +92,8 @@ def plan(model):
 def installation_mapping(old, proposed, texts):
     groups = {}
     for text_id, value in old.items():
-        groups.setdefault(value.split('#', 1)[0], set()).add(texts[text_id])
+        # Identical printed labels may have different meanings (Roman i vs letter i).
+        groups.setdefault(value.split('#', 1)[0], set()).add(proposed[text_id])
     return {text_id: proposed[text_id] if len(groups[value.split('#', 1)[0]]) > 1
             else value.split('#', 1)[0] for text_id, value in old.items()}
 

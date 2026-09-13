@@ -48,32 +48,32 @@
     "context": "This transcript reads a printed exercise number in Swahili."
   },
   "(ii)": {
-    "narration": "Kipengele mbili",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "mbili",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(iii)": {
-    "narration": "Kipengele tatu",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "tatu",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(iv)": {
-    "narration": "Kipengele nne",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "nne",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(v)": {
-    "narration": "Kipengele tano",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "tano",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(i)": {
-    "narration": "Kipengele i",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "moja",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(vi)": {
-    "narration": "Kipengele sita",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "sita",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "(vii)": {
-    "narration": "Kipengele saba",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "saba",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "C": {
     "narration": "Herufi se",
@@ -116,8 +116,8 @@
     "context": "This is the spoken label of an answer destination in a matching exercise. The software identifier dropzone denotes the place to put the answer; the final letter identifies that destination."
   },
   "(ii) Ni tungo ipi kati ya zifuatazo ni sahihi kuhusiana na uimbaji wa sauti mbili?": {
-    "narration": "Kipengele cha pili. Ni tungo ipi kati ya zifuatazo ni sahihi kuhusiana na uimbaji wa sauti mbili?",
-    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. The opening identifies item two. Pause after the item label, then clearly say Ni and read the full question."
+    "narration": "mbili.  Ni tungo ipi kati ya zifuatazo ni sahihi kuhusiana na uimbaji wa sauti mbili?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "Katika sarakasi, washiriki wanaweza kufanya mambo mbalimbali ya kufurahisha au ya kustaajabisha, kama:\n- kuruka\n- kujisawazisha\n- kucheza na vifaa mbalimbali\n- kuunda maumbo mbalimbali ardhini na hewani": {
     "narration": "Katika sarakasi, washiriki wanaweza kufanya mambo mbalimbali ya kufurahisha au ya kustaajabisha, kama:\n- kuruka\n- kujisawazisha\n- kucheza na vifaa mbalimbali\n- kuunda maumbo mbalimbali ardhini na hewani",
@@ -128,7 +128,219 @@
     "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. This is a spoken instruction to prepare a song, not lyrics to perform. Read the entire sentence through ujumbe kwa jamii yako."
   },
   "(iv) Ni mazoezi yapi mwigizaji anaweza kufanya ili awasilishe hisia na sauti kwa urahisi?": {
-    "narration": "Kipengele cha nne. Ni mazoezi yapi mwigizaji anaweza kufanya ili awasilishe hisia na sauti kwa urahisi?",
-    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. The opening identifies item four. Pause after the item label, then clearly say Ni and read the full question."
+    "narration": "nne.  Ni mazoezi yapi mwigizaji anaweza kufanya ili awasilishe hisia na sauti kwa urahisi?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Vifaa vinavyohitajika ni penseli za aina mbalimbali kama vile HB, 2B na 4B, karatasi ya kuchora, na kifutio.": {
+    "narration": "Vifaa vinavyohitajika ni penseli za aina mbalimbali kama vile HB, mbili B na nne B, karatasi ya kuchora, na kifutio.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "(i) Andaa vifaa vya kuchorea.": {
+    "narration": "moja.  Andaa vifaa vya kuchorea.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Utahitaji vifaa mbalimbali vya kuchorea kama vile karatasi, ubao wa kuegemezea karatasi, kifutio, kichongeo na penseli za aina mbalimbali kama vile HB, 2B na 4B.": {
+    "narration": "Utahitaji vifaa mbalimbali vya kuchorea kama vile karatasi, ubao wa kuegemezea karatasi, kifutio, kichongeo na penseli za aina mbalimbali kama vile HB, mbili B na nne B.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "(i)Amua mwelekeo wa kitanda kama ni kulia, kushoto au kuoneshwa kutoka mtazamo wa pembe;": {
+    "narration": "moja. Amua mwelekeo wa kitanda kama ni kulia, kushoto au kuoneshwa kutoka mtazamo wa pembe;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii)Chora mistari ya ulalo;": {
+    "narration": "mbili. Chora mistari ya ulalo;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii)Chora mistari ya wima ya mbele; na": {
+    "narration": "tatu. Chora mistari ya wima ya mbele; na",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv)Chora mistari ya wima ya nyuma upande wa chini, kama inavyoonekana katika Kielelezo namba 3.": {
+    "narration": "nne. Chora mistari ya wima ya nyuma upande wa chini, kama inavyoonekana katika Kielelezo namba 3.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Tumia penseli za aina tofauti kama vile HB, 2B, na 4B.": {
+    "narration": "Tumia penseli za aina tofauti kama vile HB, mbili B, na nne B.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "Penseli za HB ni nzuri kwa kuchorea mistari myepesi, wakati 2B na 4B ni bora kwa kukoleza mistari;": {
+    "narration": "Penseli za HB ni nzuri kwa kuchorea mistari myepesi, wakati mbili B na nne B ni bora kwa kukoleza mistari;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "(i) Udongo wa mfinyanzi;": {
+    "narration": "moja.  Udongo wa mfinyanzi;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Maji;": {
+    "narration": "mbili.  Maji;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Ubao;": {
+    "narration": "tatu.  Ubao;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Kipande cha karatasi; na": {
+    "narration": "nne.  Kipande cha karatasi; na",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(v) Kisukumio.": {
+    "narration": "tano.  Kisukumio.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(i) Chagua aina ya umbo unalotaka kufinyanga;": {
+    "narration": "moja.  Chagua aina ya umbo unalotaka kufinyanga;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Weka udongo kwenye kibao kisha sukuma kama chapati kwa kutumia kisukumio au kifaa kinachofanana kama vile chupa;": {
+    "narration": "mbili.  Weka udongo kwenye kibao kisha sukuma kama chapati kwa kutumia kisukumio au kifaa kinachofanana kama vile chupa;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Sukuma bapa lenye unene unaolingana, kama inavyoonekana katika Kielelezo namba 2;": {
+    "narration": "tatu.  Sukuma bapa lenye unene unaolingana, kama inavyoonekana katika Kielelezo namba 2;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Kata vipande vya bapa kulingana na umbo ulilochagua, kama inavyoonekana katika Kielelezo namba 3;": {
+    "narration": "nne.  Kata vipande vya bapa kulingana na umbo ulilochagua, kama inavyoonekana katika Kielelezo namba 3;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(v) Unganisha vipande hivyo kwa kutumia udongo wa mfinyanzi, kama inavyoonekana katika Kielelezo namba 4;": {
+    "narration": "tano.  Unganisha vipande hivyo kwa kutumia udongo wa mfinyanzi, kama inavyoonekana katika Kielelezo namba 4;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vi) Lainisha sehemu zilizoungwa ili zisiache uwazi; na": {
+    "narration": "sita.  Lainisha sehemu zilizoungwa ili zisiache uwazi; na",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vii) Weka umbo kivulini kwa muda mfupi ili likauke kiasi na liwekee nakshi, kisha liweke tena kivulini hadi likauke kabisa, kama inavyoonekana katika Kielelezo namba 5.": {
+    "narration": "saba.  Weka umbo kivulini kwa muda mfupi ili likauke kiasi na liwekee nakshi, kisha liweke tena kivulini hadi likauke kabisa, kama inavyoonekana katika Kielelezo namba 5.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Jibu kipengele (i) hadi (v) kwa kuchagua herufi ya jibu sahihi.": {
+    "narration": "Jibu kipengele moja  hadi tano  kwa kuchagua herufi ya jibu sahihi.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(i) Ni kitu gani mwimbaji anatakiwa kuzingatia wakati wa kuimba ili kupata toni sahihi?": {
+    "narration": "moja.  Ni kitu gani mwimbaji anatakiwa kuzingatia wakati wa kuimba ili kupata toni sahihi?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Ni njia ipi hutumika kufinyanga vifani vyenye maumbo ya vimo virefu?": {
+    "narration": "tatu.  Ni njia ipi hutumika kufinyanga vifani vyenye maumbo ya vimo virefu?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Ni mazoezi gani kati ya yafuatayo ambayo mwigizaji anaweza kuyafanya ili kuwasilisha hisia na sauti kwa urahisi?": {
+    "narration": "nne.  Ni mazoezi gani kati ya yafuatayo ambayo mwigizaji anaweza kuyafanya ili kuwasilisha hisia na sauti kwa urahisi?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(v) Kwa nini ni muhimu kwa mwimbaji kufahamu maana ya maneno anayoimba?": {
+    "narration": "tano.  Kwa nini ni muhimu kwa mwimbaji kufahamu maana ya maneno anayoimba?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vi) Je, ni madhara yapi unaweza kuyapata usipojiandaa vizuri kabla ya kushiriki mashindano ya michezo?": {
+    "narration": "sita.  Je, ni madhara yapi unaweza kuyapata usipojiandaa vizuri kabla ya kushiriki mashindano ya michezo?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Jibu vipengele (i)-(iv), kwa kuoanisha vifaa katika Orodha A na matumizi yake katika Orodha B.": {
+    "narration": "Jibu vipengele moja hadi nne, kwa kuoanisha vifaa katika Orodha A na matumizi yake katika Orodha B.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(i) Koni": {
+    "narration": "moja.  Koni",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Kipenga": {
+    "narration": "mbili.  Kipenga",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Mkeka wa mazoezi": {
+    "narration": "tatu.  Mkeka wa mazoezi",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Gunia": {
+    "narration": "nne.  Gunia",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Vifaa vinavyohitajika ni:\n- penseli za aina mbalimbali kama HB, 2B na 4B\n- karatasi ya kuchora\n- kifutio": {
+    "narration": "Vifaa vinavyohitajika ni:\n- penseli za aina mbalimbali kama HB, mbili B na nne B\n- karatasi ya kuchora\n- kifutio",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "Utahitaji vifaa mbalimbali vya kuchorea kama vile:\n- karatasi\n- ubao wa kuegemezea karatasi\n- kifutio\n- kichongeo\n- penseli za aina mbalimbali kama HB, 2B na 4B": {
+    "narration": "Utahitaji vifaa mbalimbali vya kuchorea kama vile:\n- karatasi\n- ubao wa kuegemezea karatasi\n- kifutio\n- kichongeo\n- penseli za aina mbalimbali kama HB, mbili B na nne B",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "(i) Amua mwelekeo wa kitanda.\nAmua kama kiko kulia, kushoto, au kinaonekana kwa mtazamo wa pembe.": {
+    "narration": "moja.  Amua mwelekeo wa kitanda.\nAmua kama kiko kulia, kushoto, au kinaonekana kwa mtazamo wa pembe.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Chora mistari ya ulalo.": {
+    "narration": "mbili.  Chora mistari ya ulalo.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Chora mistari ya wima ya mbele.": {
+    "narration": "tatu.  Chora mistari ya wima ya mbele.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Chora mistari ya wima ya nyuma upande wa chini.\nChora kama inavyoonekana katika Kielelezo namba 3.": {
+    "narration": "nne.  Chora mistari ya wima ya nyuma upande wa chini.\nChora kama inavyoonekana katika Kielelezo namba 3.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Tumia penseli za aina tofauti, kama:\n- HB\n- 2B\n- 4B": {
+    "narration": "Tumia penseli za aina tofauti, kama:\n- HB\n- mbili B\n- nne B",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "Penseli ya HB ni nzuri kwa kuchora mistari myepesi.\nPenseli za 2B na 4B ni bora kwa kukoleza mistari.": {
+    "narration": "Penseli ya HB ni nzuri kwa kuchora mistari myepesi.\nPenseli za mbili B na nne B ni bora kwa kukoleza mistari.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it. These are pencil grades: read 2B as mbili B and 4B as nne B. Keep B as the letter B; read the numbers in Swahili, without English two or four."
+  },
+  "(i) Chagua umbo unalotaka kufinyanga;": {
+    "narration": "moja.  Chagua umbo unalotaka kufinyanga;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Weka udongo kwenye kibao.\nKisha usukume kama chapati kwa kutumia kisukumio au kifaa kinachofanana, kama chupa;": {
+    "narration": "mbili.  Weka udongo kwenye kibao.\nKisha usukume kama chapati kwa kutumia kisukumio au kifaa kinachofanana, kama chupa;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iii) Sukuma bapa liwe na unene unaolingana, kama inavyoonekana katika Kielelezo namba 2;": {
+    "narration": "tatu.  Sukuma bapa liwe na unene unaolingana, kama inavyoonekana katika Kielelezo namba 2;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(iv) Kata vipande vya bapa kwa kufuata umbo ulilochagua, kama inavyoonekana katika Kielelezo namba 3;": {
+    "narration": "nne.  Kata vipande vya bapa kwa kufuata umbo ulilochagua, kama inavyoonekana katika Kielelezo namba 3;",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(v) Unganisha vipande hivyo kwa kutumia udongo wa mfinyanzi.\nAngalia Kielelezo namba 4.": {
+    "narration": "tano.  Unganisha vipande hivyo kwa kutumia udongo wa mfinyanzi.\nAngalia Kielelezo namba 4.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vi) Lainisha sehemu zilizounganishwa ili zisibaki na uwazi.": {
+    "narration": "sita.  Lainisha sehemu zilizounganishwa ili zisibaki na uwazi.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vii) Weka umbo kivulini kwa muda mfupi.\nUmbo likauke kiasi.\nKisha liwekee nakshi.\nBaada ya hapo, liweke tena kivulini hadi likauke kabisa.\nAngalia Kielelezo namba 5.": {
+    "narration": "saba.  Weka umbo kivulini kwa muda mfupi.\nUmbo likauke kiasi.\nKisha liwekee nakshi.\nBaada ya hapo, liweke tena kivulini hadi likauke kabisa.\nAngalia Kielelezo namba 5.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Jibu kipengele (i) hadi (v).\nChagua herufi ya jibu sahihi.": {
+    "narration": "Jibu kipengele moja  hadi tano .\nChagua herufi ya jibu sahihi.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(i) Mwimbaji anatakiwa kuzingatia nini wakati wa kuimba ili apate toni sahihi?": {
+    "narration": "moja.  Mwimbaji anatakiwa kuzingatia nini wakati wa kuimba ili apate toni sahihi?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(ii) Ni tungo ipi iliyo sahihi kuhusu uimbaji wa sauti 2?": {
+    "narration": "mbili.  Ni tungo ipi iliyo sahihi kuhusu uimbaji wa sauti 2?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(v) Kwa nini ni muhimu kwa mwimbaji kujua maana ya maneno anayoimba?": {
+    "narration": "tano.  Kwa nini ni muhimu kwa mwimbaji kujua maana ya maneno anayoimba?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "(vi) Unaweza kupata madhara gani usipojiandaa vizuri kabla ya kushiriki mashindano ya michezo?": {
+    "narration": "sita.  Unaweza kupata madhara gani usipojiandaa vizuri kabla ya kushiriki mashindano ya michezo?",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "Jibu vipengele (i) hadi (iv).\nOanisha vifaa vya Orodha A na matumizi yake katika Orodha B.": {
+    "narration": "Jibu vipengele moja  hadi nne .\nOanisha vifaa vya Orodha A na matumizi yake katika Orodha B.",
+    "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   }
 }
