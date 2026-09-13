@@ -185,3 +185,5 @@ References: [Gemini TTS](https://ai.google.dev/gemini-api/docs/generate-content/
 [faster-whisper](https://github.com/SYSTRAN/faster-whisper).
 
 Expanded cover-description revision installed: both cover texts and matching HTML/offline alt descriptions now include the government-property notice and fuller image descriptions, checked against the actual cover images. Both replacement recordings and measured timings are installed. All 2,078 recordings passed installation validation, and installed cover checksums and offline data were verified. Backup: `.kore-tts/reader-backup-20260913-145028-854834/`. Listening review remains pending; changes are included in the cover-narration commit.
+
+Cover sign videos were subsequently added at the user’s request: `video-1` maps to `sl_cover_sec001.mp4`, and `video-82` to `sl_back_cover_sec001.mp4`. Both are 720p H.264 copies under 5,000,000 bytes with audio streams removed. The 80 existing mappings are preserved. Offline video data and IMS resources are updated; cover TTS remains enabled. The original source videos are unchanged. This addition is included in the cover sign-video commit.

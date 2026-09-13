@@ -19,15 +19,15 @@ class SignVideoMappingTests(unittest.TestCase):
                 position = re.search(r'name="page-section-id"\s+content="(\d+)"', html)
                 self.assertEqual(int(position[1]), index)
                 key = f'video-{index}'
+                expected.add(key)
+                self.assertEqual(metadata[key]['section_id'], page['section_id'])
+                self.assertEqual(videos[key], f"sl_{page['section_id']}.mp4")
+                self.assertEqual(videos[key], metadata[key]['filename'])
+                video = ROOT / 'content/i18n/sw-TZ/video' / videos[key]
+                self.assertTrue(video.is_file())
                 if page['section_id'] in ('cover_sec001', 'back_cover_sec001'):
-                    self.assertNotIn(key, videos)
-                    self.assertNotIn(key, metadata)
-                else:
-                    expected.add(key)
-                    self.assertEqual(metadata[key]['section_id'], page['section_id'])
-                    self.assertEqual(videos[key], f"sl_{page['section_id']}.mp4")
-                    self.assertEqual(videos[key], metadata[key]['filename'])
-                    self.assertTrue((ROOT / 'content/i18n/sw-TZ/video' / videos[key]).is_file())
+                    self.assertLess(video.stat().st_size, 5_000_000)
+                    self.assertEqual(metadata[key]['audio_mode'], 'remove')
         self.assertEqual(set(videos), expected)
         self.assertEqual(set(metadata), expected)
 

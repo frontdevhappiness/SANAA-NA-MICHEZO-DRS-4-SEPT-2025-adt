@@ -1120,6 +1120,34 @@
       "audio_mode": "keep",
       "trim_start": null,
       "trim_end": null
+    },
+    "video-1": {
+      "imported_at": "2026-09-13T12:00:24Z",
+      "filename": "sl_cover_sec001.mp4",
+      "section_id": "cover_sec001",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "front_cover.mp4",
+      "source_size": 12481355,
+      "preset": "h264-720p-crf23",
+      "audio_mode": "remove",
+      "trim_start": null,
+      "trim_end": null
+    },
+    "video-82": {
+      "imported_at": "2026-09-13T12:00:24Z",
+      "filename": "sl_back_cover_sec001.mp4",
+      "section_id": "back_cover_sec001",
+      "languages": [
+        "sw-TZ"
+      ],
+      "source_name": "back_cover.mp4",
+      "source_size": 10739405,
+      "preset": "h264-720p-crf23",
+      "audio_mode": "remove",
+      "trim_start": null,
+      "trim_end": null
     }
   }
 }
