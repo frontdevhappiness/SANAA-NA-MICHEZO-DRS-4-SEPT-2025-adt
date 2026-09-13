@@ -19,8 +19,8 @@ class KoreTests(unittest.TestCase):
         jobs, mapping = generate.plan('gemini-3.1-flash-tts-preview')
         self.assertEqual(jobs[mapping['pg026_n0033']]['narration'], 'moja')
         self.assertEqual(jobs[mapping['pg026_n0003']]['narration'], 'mbili')
-        self.assertEqual(jobs[mapping['pg039_n0014']]['narration'], 'Kipengele i')
-        self.assertEqual(jobs[mapping['pg070_n0039_easy_read']]['narration'], 'Kipengele i')
+        self.assertEqual(jobs[mapping['pg039_n0014']]['narration'], 'i')
+        self.assertEqual(jobs[mapping['pg070_n0039_easy_read']]['narration'], 'i')
         self.assertIn('mbili B', jobs[mapping['pg025_n0017']]['narration'])
         self.assertIn('nne B', jobs[mapping['pg025_n0017']]['narration'])
         language = generate.ROOT / 'content/i18n/sw-TZ'
@@ -28,6 +28,23 @@ class KoreTests(unittest.TestCase):
             json.loads((language / 'audios.json').read_text()), mapping,
             json.loads((language / 'texts.json').read_text()))
         self.assertNotEqual(installed['pg026_n0033'], installed['pg039_n0014'])
+
+    def test_letter_labels_have_no_spoken_prefix(self):
+        overrides = json.loads((generate.ROOT / 'scripts/kore_narration_overrides.json').read_text())
+        for letter in 'abcdefghlmno':
+            self.assertEqual(overrides[f'({letter})']['narration'], letter)
+        for letter in 'ABCDEF':
+            self.assertEqual(overrides[letter]['narration'], letter)
+        self.assertEqual(overrides['(i)']['narration'], 'moja')
+        self.assertEqual(overrides['(ii)']['narration'], 'mbili')
+        jobs, mapping = generate.plan('gemini-3.1-flash-tts-preview')
+        for job in jobs.values():
+            if len(job['narration']) == 1 and job['narration'].isalpha():
+                self.assertIn('English alphabet', job['style'])
+                self.assertNotIn('Pronounce letter names and numbers in Swahili', job['style'])
+        self.assertIn('"eye"', jobs[mapping['pg039_n0014']]['style'])
+        self.assertIn('Pronounce letter names and numbers in Swahili',
+                      jobs[mapping['pg026_n0033']]['style'])
 
     def test_adjacent_spoken_expansions_map_to_measured_words(self):
         for text, narration in [('2B 4B', 'mbili B nne B'),

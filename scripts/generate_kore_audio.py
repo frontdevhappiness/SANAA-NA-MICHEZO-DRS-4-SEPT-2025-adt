@@ -75,11 +75,15 @@ def plan(model):
         override = id_overrides.get(text_id, overrides.get(text))
         if override is not None:
             narration = override['narration']
+            english_letter = override.get('letter_language') == 'en'
             style = (
-                'Generate a single-speaker recording in Tanzanian Swahili. '
+                ('Generate a single-speaker recording of an English alphabet letter name. '
+                 if english_letter else 'Generate a single-speaker recording in Tanzanian Swahili. ')
                 + override['context'] + ' '
                 'Use a clear, calm teaching voice. Speak only the transcript below. '
-                'Pronounce letter names and numbers in Swahili. '
+                + ('Pronounce this letter using its English alphabet name. '
+                   if english_letter else 'Pronounce letter names and numbers in Swahili. ')
+                +
                 'Do not translate, explain, or add other words.\nTranscript:\n'
             )
         identity = sha(json.dumps([model, 'Kore', style, text, narration], ensure_ascii=False).encode())

@@ -12,36 +12,44 @@
     "context": "Pronunciation direction for the transcript: pronounce hutumia as hu-tu-MI-a, smoothly as one word with a clear mi-a ending. There is no w sound between mi and a. Preserve the active verb hutumia exactly. This pronunciation direction is not part of the spoken transcript."
   },
   "(a)": {
-    "narration": "Kipengele a",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "a",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter a: pronounced \"ay\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(b)": {
-    "narration": "Kipengele be",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "b",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter b: pronounced \"bee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(c)": {
-    "narration": "Kipengele se",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "c",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter c: pronounced \"see\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(d)": {
-    "narration": "Kipengele de",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "d",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter d: pronounced \"dee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(e)": {
-    "narration": "Kipengele e",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "e",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter e: pronounced \"ee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(f)": {
-    "narration": "Kipengele efi",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "f",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter f: pronounced \"ef\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(g)": {
-    "narration": "Kipengele ge",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "g",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter g: pronounced \"jee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(h)": {
-    "narration": "Kipengele he",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "h",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter h: pronounced \"aitch\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "1.": {
     "narration": "Namba moja",
@@ -76,28 +84,34 @@
     "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
   },
   "C": {
-    "narration": "Herufi se",
-    "context": "This transcript identifies a printed uppercase letter in a Swahili textbook figure."
+    "narration": "C",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter C: pronounced \"see\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "D": {
-    "narration": "Herufi de",
-    "context": "This transcript identifies a printed uppercase letter in a Swahili textbook figure."
+    "narration": "D",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter D: pronounced \"dee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(l)": {
-    "narration": "Kipengele eli",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "l",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter l: pronounced \"el\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(m)": {
-    "narration": "Kipengele emu",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "m",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter m: pronounced \"em\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(n)": {
-    "narration": "Kipengele eni",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "n",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter n: pronounced \"en\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "(o)": {
-    "narration": "Kipengele o",
-    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+    "narration": "o",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter o: pronounced \"oh\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   },
   "dropzone-c": {
     "narration": "Sehemu se",
@@ -342,5 +356,25 @@
   "Jibu vipengele (i) hadi (iv).\nOanisha vifaa vya Orodha A na matumizi yake katika Orodha B.": {
     "narration": "Jibu vipengele moja  hadi nne .\nOanisha vifaa vya Orodha A na matumizi yake katika Orodha B.",
     "context": "Read this complete Tanzanian Swahili textbook text as ordinary speech. Read every word, including any opening list number; do not skip short labels or the word Ni following a number. The Roman numerals are written out in the transcript as Swahili cardinal numbers, not letter names. Read moja, mbili, tatu and nne exactly as written. Read the entire sentence without shortening it."
+  },
+  "A": {
+    "narration": "A",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter A: pronounced \"ay\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
+  },
+  "B": {
+    "narration": "B",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter B: pronounced \"bee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
+  },
+  "E": {
+    "narration": "E",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter E: pronounced \"ee\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
+  },
+  "F": {
+    "narration": "F",
+    "letter_language": "en",
+    "context": "This is one alphabetic label from a textbook list or diagram. Say only the English name of the letter F: pronounced \"ef\". Do not pronounce it as a Swahili letter name. Do not read brackets or add Kipengele, Herufi, a number, an introduction, or any other words. This is a letter label, not a Roman numeral."
   }
 }

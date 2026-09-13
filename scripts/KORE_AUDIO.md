@@ -5,7 +5,7 @@ audit finds 2,997 audio IDs and 2,076 distinct narration jobs, including easy-re
 glossary, activity and image-description audio. The scripts are adapted from the
 Afya workspace referenced in the supplied guide. Kore narration and new word timings were installed on 2026-09-13.
 
-All 2,075 current recordings passed checksum, MP3 decoding and measured-timing
+All 2,075 original migration recordings passed checksum, MP3 decoding and measured-timing
 validation, covering 2,997 mapped IDs. Feature flags, page content, sign-video
 mappings and decorative-symbol exclusions were preserved. Post-install tests
 and local HTTP resource checks passed. Browser playback/listening still needs
@@ -29,6 +29,27 @@ are unchanged. Validation and post-install tests passed.
 Backup before this correction:
 `.kore-tts/reader-backup-20260913-133756-161271/`.
 These pronunciation corrections are included in the pencil-grade and Roman-numeral pronunciation commit.
+
+## Letter-only labels installed
+
+The 15 replacement recordings for alphabetical labels were installed with new
+measured timings. Their narration contains only the letter, without “Kipengele”
+or “Herufi”. Alphabetical “i” remains separate from Roman “i” (moja); the Roman
+number and pencil-grade corrections remain intact. All 2,076 recordings passed
+installation validation, and all 21 local regression tests passed.
+
+Backup before this update:
+`.kore-tts/reader-backup-20260913-140434-539552/`.
+This update is included in the English-letter pronunciation commit. Listen to the labels after a browser hard refresh.
+
+The subsequent English-letter clarification is now installed:
+alphabetical labels now request English names (for example h = aitch, g = jee,
+i = eye). A label-specific language option avoids the normal Swahili prompt for
+these clips. All 19 replacement recordings were generated and aligned, reusing
+2,057 recordings. Installation validated all 2,076 recordings and timings;
+all 21 regression tests passed. Roman numerals and pencil-grade narration are
+unchanged. Backup: `.kore-tts/reader-backup-20260913-141737-458357/`.
+The English-letter update is included in the English-letter pronunciation commit; browser listening remains to be reviewed.
 
 ## Generate and review three samples first
 
