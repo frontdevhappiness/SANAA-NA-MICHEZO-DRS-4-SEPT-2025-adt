@@ -14,6 +14,9 @@
   var ttsPlaying = false;
   var sessionStarted = false;
   var retryTimer = 0;
+  var videoPausedByUser = false;
+  var startingTts = false;
+  var panelRequested = false;
 
   function mediaUrl(media) {
     return String(media.currentSrc || media.src || "");
@@ -56,10 +59,10 @@
   }
 
   function playSignVideo(video, reset) {
-    if (!video || !ttsPlaying) return;
+    if (!video || !ttsPlaying || videoPausedByUser) return;
     muteVideo(video);
     setVideoSpeed(video);
-    if (reset) {
+    if (reset && video.paused) {
       try {
         video.currentTime = 0;
       } catch (_error) {
@@ -78,21 +81,21 @@
       return;
     }
 
-    if (attempt < 20 && ttsPlaying) {
+    if (!panelRequested && ttsPlaying && !videoPausedByUser) {
+      var toggle = document.querySelector(
+        'button[aria-label="Lugha ya ishara"][aria-pressed="false"], ' +
+        'button[aria-label="Sign language"][aria-pressed="false"]'
+      );
+      if (toggle) {
+        panelRequested = true;
+        toggle.click();
+      }
+    }
+
+    if (attempt < 20 && ttsPlaying && !videoPausedByUser) {
       retryTimer = window.setTimeout(function () {
         ensureSignVideo(reset, attempt + 1);
       }, 50);
-    }
-  }
-
-  function pauseSignVideo(reset) {
-    var video = signVideo();
-    if (!video) return;
-    nativePause.call(video);
-    if (reset) {
-      try {
-        video.currentTime = 0;
-      } catch (_error) {}
     }
   }
 
@@ -102,7 +105,7 @@
       if (!audio.ended && audio.getAttribute("src")) return;
       ttsPlaying = false;
       sessionStarted = false;
-      pauseSignVideo(true);
+      window.clearTimeout(retryTimer);
     }, 120);
   }
 
@@ -115,7 +118,7 @@
     audio.addEventListener("error", function () {
       ttsPlaying = false;
       sessionStarted = false;
-      pauseSignVideo(true);
+      window.clearTimeout(retryTimer);
     });
     audio.addEventListener("ratechange", function () {
       var video = signVideo();
@@ -128,62 +131,71 @@
     var args = arguments;
 
     if (isSignVideo(media)) {
+      videoPausedByUser = false;
       muteVideo(media);
       return nativePlay.apply(media, args);
     }
 
+    var isTts = isTtsAudio(media);
+    if (isTts) startingTts = true;
     var result = nativePlay.apply(media, args);
-    if (!isTtsAudio(media)) return result;
+    if (!isTts) return result;
 
     trackAudio(media);
     var reset = !sessionStarted;
+    var startTogether = !ttsPlaying;
+    if (startTogether) {
+      videoPausedByUser = false;
+      panelRequested = false;
+    }
     ttsAudio = media;
     ttsPlaying = true;
     sessionStarted = true;
 
     Promise.resolve(result).then(
       function () {
-        ensureSignVideo(reset, 0);
+        if (startTogether) ensureSignVideo(reset, 0);
         // The ADT runtime updates its media state after play resolves. Retry
         // once after that update so its old exclusive-media effect cannot win.
         window.setTimeout(function () {
-          ensureSignVideo(false, 0);
+          startingTts = false;
+          if (startTogether) ensureSignVideo(false, 0);
         }, 80);
       },
       function () {
         ttsPlaying = false;
+        startingTts = false;
       }
     );
     return result;
   };
 
   mediaPrototype.pause = function () {
-    if (isSignVideo(this) && ttsPlaying) {
-      // The stock runtime pauses sign video when TTS claims active media.
-      // TTS is the master here, so keep the muted companion video running.
-      return;
-    }
-
-    var isTts = isTtsAudio(this);
+    // Ignore only the runtime's exclusive-media effect during TTS startup.
+    // Native video controls still emit pause and are respected below.
+    if (isSignVideo(this) && startingTts) return;
+    if (isSignVideo(this)) videoPausedByUser = true;
     var result = nativePause.apply(this, arguments);
-    if (isTts) {
-      var audio = this;
+    if (isTtsAudio(this)) {
       ttsPlaying = false;
-      pauseSignVideo(false);
-      window.setTimeout(function () {
-        if (!audio.getAttribute("src")) {
-          sessionStarted = false;
-          pauseSignVideo(true);
-        }
-      }, 0);
+      startingTts = false;
+      window.clearTimeout(retryTimer);
     }
     return result;
   };
+
+  window.addEventListener("pause", function (event) {
+    if (isSignVideo(event.target)) {
+      videoPausedByUser = true;
+      window.clearTimeout(retryTimer);
+    }
+  }, true);
 
   window.addEventListener(
     "play",
     function (event) {
       if (!isSignVideo(event.target)) return;
+      videoPausedByUser = false;
       muteVideo(event.target);
       // React's current onPlay handler marks sign language as exclusive media,
       // which stops TTS. Keep the native playback but suppress that handler.
