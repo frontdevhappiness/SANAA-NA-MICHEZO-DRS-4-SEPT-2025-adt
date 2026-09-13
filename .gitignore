@@ -1,3 +1,9 @@
 
 /.adt-tts-work
 /tts_samples
+
+# Kore generation, local credentials, alignment models and backups
+.kore-tts/
+__pycache__/
+.env
+.env.*

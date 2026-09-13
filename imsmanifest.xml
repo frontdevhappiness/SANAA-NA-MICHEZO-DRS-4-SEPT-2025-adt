@@ -109,7 +109,9 @@
       <file href="pg080_sec001.html"/>
       <file href="pg080_sec002.html"/>
       <file href="back_cover.html"/>
-    </resource>
+    <file href="content/i18n/sw-TZ/audio/kore_b83baa356beb5248c0141be60388d30abc45c247edeb296bf95cf13fa8c5e829.mp3"/>
+<file href="content/i18n/sw-TZ/audio/kore_dfd58753166bdf2d817a3acc1604e264e918c0b2b186e23da16082c8062fc523.mp3"/>
+</resource>
   </resources>
 
 </manifest>

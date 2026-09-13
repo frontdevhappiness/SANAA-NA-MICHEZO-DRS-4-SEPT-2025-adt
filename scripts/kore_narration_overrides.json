@@ -1,0 +1,134 @@
+{
+  "true": {
+    "narration": "Kweli",
+    "context": "This is the true answer label in a Swahili exercise."
+  },
+  "false": {
+    "narration": "Si kweli",
+    "context": "This is the false answer label in a Swahili exercise."
+  },
+  "Sanaa kama vile michezo ya kuigiza na ngoma mara nyingi hutumia miondoko ya mwili ili kuwasiliana na watazamaji.": {
+    "narration": "Sanaa kama vile michezo ya kuigiza na ngoma mara nyingi hutumia miondoko ya mwili ili kuwasiliana na watazamaji.",
+    "context": "Pronunciation direction for the transcript: pronounce hutumia as hu-tu-MI-a, smoothly as one word with a clear mi-a ending. There is no w sound between mi and a. Preserve the active verb hutumia exactly. This pronunciation direction is not part of the spoken transcript."
+  },
+  "(a)": {
+    "narration": "Kipengele a",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(b)": {
+    "narration": "Kipengele be",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(c)": {
+    "narration": "Kipengele se",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(d)": {
+    "narration": "Kipengele de",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(e)": {
+    "narration": "Kipengele e",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(f)": {
+    "narration": "Kipengele efi",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(g)": {
+    "narration": "Kipengele ge",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(h)": {
+    "narration": "Kipengele he",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "1.": {
+    "narration": "Namba moja",
+    "context": "This transcript reads a printed exercise number in Swahili."
+  },
+  "(ii)": {
+    "narration": "Kipengele mbili",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(iii)": {
+    "narration": "Kipengele tatu",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(iv)": {
+    "narration": "Kipengele nne",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(v)": {
+    "narration": "Kipengele tano",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(i)": {
+    "narration": "Kipengele i",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(vi)": {
+    "narration": "Kipengele sita",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(vii)": {
+    "narration": "Kipengele saba",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "C": {
+    "narration": "Herufi se",
+    "context": "This transcript identifies a printed uppercase letter in a Swahili textbook figure."
+  },
+  "D": {
+    "narration": "Herufi de",
+    "context": "This transcript identifies a printed uppercase letter in a Swahili textbook figure."
+  },
+  "(l)": {
+    "narration": "Kipengele eli",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(m)": {
+    "narration": "Kipengele emu",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(n)": {
+    "narration": "Kipengele eni",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "(o)": {
+    "narration": "Kipengele o",
+    "context": "This transcript names a printed list item in a Tanzanian Swahili arts and sports textbook. Speak the supplied Swahili label naturally as a single short phrase."
+  },
+  "dropzone-c": {
+    "narration": "Sehemu se",
+    "context": "This is the spoken label of an answer destination in a matching exercise. The software identifier dropzone denotes the place to put the answer; the final letter identifies that destination."
+  },
+  "dropzone-d": {
+    "narration": "Sehemu de",
+    "context": "This is the spoken label of an answer destination in a matching exercise. The software identifier dropzone denotes the place to put the answer; the final letter identifies that destination."
+  },
+  "dropzone-a": {
+    "narration": "Sehemu a",
+    "context": "This is the spoken label of an answer destination in a matching exercise. The software identifier dropzone denotes the place to put the answer; the final letter identifies that destination."
+  },
+  "dropzone-b": {
+    "narration": "Sehemu be",
+    "context": "This is the spoken label of an answer destination in a matching exercise. The software identifier dropzone denotes the place to put the answer; the final letter identifies that destination."
+  },
+  "(ii) Ni tungo ipi kati ya zifuatazo ni sahihi kuhusiana na uimbaji wa sauti mbili?": {
+    "narration": "Kipengele cha pili. Ni tungo ipi kati ya zifuatazo ni sahihi kuhusiana na uimbaji wa sauti mbili?",
+    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. The opening identifies item two. Pause after the item label, then clearly say Ni and read the full question."
+  },
+  "Katika sarakasi, washiriki wanaweza kufanya mambo mbalimbali ya kufurahisha au ya kustaajabisha, kama:\n- kuruka\n- kujisawazisha\n- kucheza na vifaa mbalimbali\n- kuunda maumbo mbalimbali ardhini na hewani": {
+    "narration": "Katika sarakasi, washiriki wanaweza kufanya mambo mbalimbali ya kufurahisha au ya kustaajabisha, kama:\n- kuruka\n- kujisawazisha\n- kucheza na vifaa mbalimbali\n- kuunda maumbo mbalimbali ardhini na hewani",
+    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. There are four list items; the final item is kuunda maumbo mbalimbali ardhini na hewani. Read all four items fully, including kuunda maumbo mbalimbali."
+  },
+  "Andaa wimbo mfupi wenye ujumbe kwa jamii yako.": {
+    "narration": "Andaa wimbo mfupi wenye ujumbe kwa jamii yako.",
+    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. This is a spoken instruction to prepare a song, not lyrics to perform. Read the entire sentence through ujumbe kwa jamii yako."
+  },
+  "(iv) Ni mazoezi yapi mwigizaji anaweza kufanya ili awasilishe hisia na sauti kwa urahisi?": {
+    "narration": "Kipengele cha nne. Ni mazoezi yapi mwigizaji anaweza kufanya ili awasilishe hisia na sauti kwa urahisi?",
+    "context": "Read this complete Swahili textbook passage from beginning to end. Pronounce every word distinctly, including the final words. Use ordinary spoken narration, not singing. Do not shorten, summarize, or omit any list item. The opening identifies item four. Pause after the item label, then clearly say Ni and read the full question."
+  }
+}
