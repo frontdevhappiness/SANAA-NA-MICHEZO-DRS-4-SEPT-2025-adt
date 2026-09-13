@@ -10,6 +10,7 @@
   var nativePlay = mediaPrototype.play;
   var nativePause = mediaPrototype.pause;
   var trackedAudio = new WeakSet();
+  var openedVideos = new WeakSet();
   var ttsAudio = null;
   var ttsPlaying = false;
   var sessionStarted = false;
@@ -56,6 +57,18 @@
     if (!ttsAudio) return;
     var rate = Number(ttsAudio.playbackRate) || 1;
     video.playbackRate = Math.max(0.25, Math.min(4, rate));
+  }
+
+  function startOpenedVideo(video) {
+    if (!isSignVideo(video) || openedVideos.has(video)) return;
+    openedVideos.add(video);
+    videoPausedByUser = false;
+    muteVideo(video);
+    video.autoplay = true;
+    video.setAttribute("autoplay", "");
+    setVideoSpeed(video);
+    var result = nativePlay.call(video);
+    if (result && typeof result.catch === "function") result.catch(function () {});
   }
 
   function playSignVideo(video, reset) {
@@ -218,7 +231,7 @@
     function (event) {
       if (!isSignVideo(event.target)) return;
       muteVideo(event.target);
-      if (ttsPlaying) playSignVideo(event.target, false);
+      startOpenedVideo(event.target);
     },
     true
   );
@@ -232,9 +245,7 @@
           : Array.from(node.querySelectorAll("video"));
         videos.forEach(function (video) {
           if (!isSignVideo(video)) return;
-          muteVideo(video);
-          if (ttsPlaying) playSignVideo(video, false);
-          else nativePause.call(video);
+          startOpenedVideo(video);
         });
       });
 

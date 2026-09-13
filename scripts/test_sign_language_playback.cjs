@@ -7,8 +7,12 @@ function emit(type, target) {
   for (const fn of handlers[type] || []) fn(event);
   for (const fn of target.listeners[type] || []) fn(event);
 }
-class Media {
-  constructor(src) { this.src = this.currentSrc = src; this.paused = true; this.listeners = {}; this.playbackRate = 1; }
+class Element {
+  matches(selector) { return selector === 'video' && this instanceof Video; }
+  querySelectorAll() { return []; }
+}
+class Media extends Element {
+  constructor(src) { super(); this.src = this.currentSrc = src; this.paused = true; this.listeners = {}; this.playbackRate = 1; }
   play() { this.paused = false; emit('play', this); return Promise.resolve(); }
   pause() { this.paused = true; emit('pause', this); }
   setAttribute() {}
@@ -23,10 +27,20 @@ const audio = new Audio('/content/i18n/sw-TZ/audio/test.mp3');
 const window = {HTMLMediaElement: Media, addEventListener(type, fn) { (handlers[type] ||= []).push(fn); },
  setTimeout(fn) { timers.set(++timerId, fn); return timerId; }, clearTimeout(id) { timers.delete(id); }};
 const nativePause = Media.prototype.pause;
+let observeMutations;
 vm.runInNewContext(fs.readFileSync('assets/sign-language-sync.js', 'utf8'), {window, HTMLAudioElement:Audio, HTMLVideoElement:Video,
- document:{querySelectorAll:()=>panelOpen ? [video] : [], querySelector:()=>panelOpen ? null : {click(){panelOpen=true; panelClicks++;}}, documentElement:{}}, Element:class {}, MutationObserver:class {observe() {}}, Promise});
+ document:{querySelectorAll:()=>panelOpen ? [video] : [], querySelector:()=>panelOpen ? null : {click(){panelOpen=true; panelClicks++;}}, documentElement:{}}, Element, MutationObserver:class {constructor(fn) {observeMutations=fn;} observe() {}}, Promise});
 async function flush() { await Promise.resolve(); const pending=[...timers.values()]; timers.clear(); pending.forEach(fn=>fn()); await Promise.resolve(); }
 (async()=>{
+ observeMutations([{addedNodes:[video],removedNodes:[]}]); await flush();
+ assert.equal(video.paused,false,'opening the sign panel must autoplay without TTS');
+ assert.equal(video.muted,true,'autoplay must be muted');
+ assert.equal(audio.paused,true,'opening video must not start TTS');
+ video.pause(); emit('loadedmetadata',video); await flush();
+ assert.equal(video.paused,true,'metadata must not undo a manual pause');
+ const other=new Video('/movies/other.mp4');
+ observeMutations([{addedNodes:[other],removedNodes:[]}]);
+ assert.equal(other.paused,true,'unrelated videos must not autoplay');
  await audio.play(); await flush(); assert.equal(video.paused,false,'joint startup');
  audio.pause(); assert.equal(video.paused,false,'TTS pause must leave video playing');
  await audio.play(); await flush();
@@ -43,5 +57,7 @@ async function flush() { await Promise.resolve(); const pending=[...timers.value
  await audio.play(); await flush(); await flush();
  assert.equal(panelClicks,1,'TTS must open a closed sign panel once');
  assert.equal(video.paused,false,'newly opened video must start');
+ observeMutations([{addedNodes:[],removedNodes:[video]}]);
+ assert.equal(video.paused,true,'closing the panel stops its video');
  console.log('Independent playback and automatic panel-opening checks passed.');
 })().catch(error=>{console.error(error);process.exitCode=1;});
